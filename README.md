@@ -23,7 +23,7 @@ repository, or from any server front-end to this repository.
 This repository is expected to be updated using the
 [Ecosystem::Archive](https://github.com/lizmat/Ecosystem-Archive) module.
 
-## Directory structure:
+## Directory structure
 
 ````
 archive
