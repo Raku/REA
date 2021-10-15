@@ -18,6 +18,13 @@ no longer available in the "live" ecosystem.  In such a case, one
 should be able to download and install the dependency from this
 repository, or from any server front-end to this repository.
 
+## Note on CPAN ecosystem
+
+Because the CPAN ecosystem only checked on author and module name and
+version, and **not** on the `:auth` of the module, it is happened that
+authors uploaded modules with an `:auth` different from the expected
+`:auth<cpan:AUTHOR>` identity.
+
 ## Updating
 
 This repository is expected to be updated using the
