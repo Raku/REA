@@ -23,7 +23,7 @@ repository, or from any server front-end to this repository.
 Because the CPAN ecosystem only checked on author and module name and
 version, and **not** on the `:auth` of the module, it is happened that
 authors uploaded modules with an `:auth` different from the expected
-`:auth<cpan:AUTHOR>` identity.
+`:auth<cpan:AUTHOR>` identity.  This has been corrected in this archive.
 
 ## Updating
 
@@ -47,9 +47,12 @@ archive
   |- ...
 meta
   |- ...
-  |- Module::Name
-      |- Module::Name:ver<0.0.1>:auth:<github:baz>:api<1>.json
-      |- Module::Name:ver<0.0.2>:auth:<github:baz>:api<1>.json
-      |- ...
+  |- M
+     |- ...
+     |- Module::Name
+         |- Module::Name:ver<0.0.1>:auth:<github:baz>:api<1>.json
+         |- Module::Name:ver<0.0.2>:auth:<github:baz>:api<1>.json
+         |- ...
+     |- ...
   |- ...
 ````
