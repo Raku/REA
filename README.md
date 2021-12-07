@@ -33,6 +33,7 @@ This repository is expected to be updated using the
 ## Directory structure
 
 ````
+META.json
 archive
   |- ...
   |- M
