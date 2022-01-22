@@ -28,7 +28,7 @@ authors uploaded modules with an `:auth` different from the expected
 ## Updating
 
 This repository is expected to be updated using the
-[Ecosystem::Archive](https://github.com/lizmat/Ecosystem-Archive) module.
+[Ecosystem::Archive::Update](https://github.com/lizmat/Ecosystem-Archive-Update) module.
 
 ## Directory structure
 
