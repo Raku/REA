@@ -1,0 +1,36 @@
+BEGIN %*ENV<RAKUDO_PRECOMPILATION_PROGRESS> = 1;
+my %*SUB-MAIN-OPTS = :named-anywhere;
+
+use Ecosystem::Archive::Update:ver<0.0.10>:auth<zef:lizmat>;
+
+unit sub MAIN(
+  Bool :$update,      #= perform update, otherwise just do a read check
+  Bool :$verbose,     #= be verbose in update results
+  Int  :$degree,      #= number of CPU's to use
+  Int  :$batch,       #= number of distributions at-a-time
+  Bool :$force-json,  #= force updating of all JSON files
+);
+
+my $then;
+sub msecs() { ((now - $then) * 1000).Int ~ ' msecs' }
+
+$then = now;
+my $ea = Ecosystem::Archive::Update.new(:$degree,:$batch);
+say "Took &msecs() to read $ea.identities.elems() identities";
+
+if $update {
+    $then = now;
+    my %added = $ea.update(:$force-json);
+    "META.json".IO.spurt: $ea.meta-as-json;
+
+    say "Took &msecs() to add %added.elems() identities:";
+    say "  $_" for %added.keys.sort;
+
+    if $verbose {
+        say "$ea.notes.elems() notes were made:";
+        say "  $_" for $ea.notes;
+    }
+    else {
+        say "$ea.notes.elems() notes were made";
+    }
+}
