@@ -46,6 +46,7 @@ if $commit {
         run <git commit -a -m>, "Additions at {
             DateTime.now.utc.Str.substr(0,16)
         }";
+        run <git push>;
     }
     else {
         say "There was nothing to commit";
