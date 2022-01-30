@@ -6,7 +6,8 @@ use Ecosystem::Archive::Update:ver<0.0.10>:auth<zef:lizmat>;
 
 unit sub MAIN(
   Bool :$update,      #= perform update, otherwise just do a read check
-  Bool :$commit,      #= when updating, also commit any changes to repo
+  Bool :$commit,      #= when updating, also commit any changes
+  Bool :$push,        #= when committing, also push any changes to repo
   Bool :$verbose,     #= be verbose in update results
   Int  :$degree,      #= number of CPU's to use
   Int  :$batch,       #= number of distributions at-a-time
@@ -15,6 +16,8 @@ unit sub MAIN(
 
 my $then;
 sub msecs() { ((now - $then) * 1000).Int ~ ' msecs' }
+
+run <git pull>, :!out if $update || $commit;
 
 $then = now;
 my $ea = Ecosystem::Archive::Update.new(:$degree,:$batch);
@@ -46,7 +49,13 @@ if $commit {
         run <git commit -a -m>, "Additions at {
             DateTime.now.utc.Str.substr(0,16)
         }";
-        run <git push>;
+
+        if $push {
+            run <git push>;
+        }
+        elsif $verbose {
+            say "Did not push as --push was not specified";
+        }
     }
     else {
         say "There was nothing to commit";
