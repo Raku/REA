@@ -1,10 +1,12 @@
 BEGIN %*ENV<RAKUDO_PRECOMPILATION_PROGRESS> = 1;
 my %*SUB-MAIN-OPTS = :named-anywhere;
 
+use Git::Status:ver<0.0.1>:auth<zef:lizmat>;
 use Ecosystem::Archive::Update:ver<0.0.10>:auth<zef:lizmat>;
 
 unit sub MAIN(
   Bool :$update,      #= perform update, otherwise just do a read check
+  Bool :$commit,      #= when updating, also commit any changes to repo
   Bool :$verbose,     #= be verbose in update results
   Int  :$degree,      #= number of CPU's to use
   Int  :$batch,       #= number of distributions at-a-time
@@ -34,3 +36,38 @@ if $update {
         say "$ea.notes.elems() notes were made";
     }
 }
+
+if $commit {
+    my $status := Git::Status.new;
+    my $archive = so $status.untracked.first: *.starts-with: 'archive';
+    my $meta    = so $status.untracked.first: *.starts-with: 'meta';
+    if $archive || $meta {
+        run <git add archive meta>;
+        run <git commit -a -m>, "Additions at {
+            DateTime.now.utc.Str.substr(0,16)
+        }";
+    }
+    else {
+        say "There was nothing to commit";
+    }
+}
+elsif $verbose {
+    say "Did not commit as --commit was not specified";
+}
+
+=begin pod
+
+=head1 AUTHOR
+
+Elizabeth Mattijsen <liz@raku.rocks>
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright 2022 Elizabeth Mattijsen
+
+This script is free software; you can redistribute it and/or modify it under
+the Artistic License 2.0.
+
+=end pod
+
+# vim: expandtab shiftwidth=4
