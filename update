@@ -5,39 +5,35 @@ use Git::Status:ver<0.0.1>:auth<zef:lizmat>;
 use Ecosystem::Archive::Update:ver<0.0.10>:auth<zef:lizmat>;
 
 unit sub MAIN(
-  Bool :$update,      #= perform update, otherwise just do a read check
-  Bool :$commit,      #= when updating, also commit any changes
-  Bool :$push,        #= when committing, also push any changes to repo
-  Bool :$verbose,     #= be verbose in update results
-  Int  :$degree,      #= number of CPU's to use
-  Int  :$batch,       #= number of distributions at-a-time
-  Bool :$force-json,  #= force updating of all JSON files
+  Bool :$commit,     #= when updating, also commit any changes
+  Bool :$push,       #= when committing, also push any changes to repo
+  Bool :$verbose,    #= be verbose in update results
+  Int  :$degree,     #= number of CPU's to use
+  Int  :$batch,      #= number of distributions at-a-time
+  Bool :$force-json, #= force updating of all JSON files
 );
 
 my $then;
 sub msecs() { ((now - $then) * 1000).Int ~ ' msecs' }
 
-run <git pull>, :!out if $update || $commit;
+run <git pull>, :!out;
 
 $then = now;
 my $ea = Ecosystem::Archive::Update.new(:$degree,:$batch);
 say "Took &msecs() to read $ea.identities.elems() identities";
 
-if $update {
-    $then = now;
-    my %added = $ea.update(:$force-json);
-    "META.json".IO.spurt: $ea.meta-as-json;
+$then = now;
+my %added = $ea.update(:$force-json);
+"META.json".IO.spurt: $ea.meta-as-json;
+say "Took &msecs() to add %added.elems() identities:";
+say "  $_" for %added.keys.sort;
 
-    say "Took &msecs() to add %added.elems() identities:";
-    say "  $_" for %added.keys.sort;
-
-    if $verbose {
-        say "$ea.notes.elems() notes were made:";
-        say "  $_" for $ea.notes;
-    }
-    else {
-        say "$ea.notes.elems() notes were made";
-    }
+if $verbose {
+    say "$ea.notes.elems() notes were made:";
+    say "  $_" for $ea.notes;
+}
+else {
+    say "$ea.notes.elems() notes were made";
 }
 
 if $commit {
