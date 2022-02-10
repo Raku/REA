@@ -18,7 +18,7 @@ sub msecs() { ((now - $then) * 1000).Int ~ ' msecs' }
 
 run <git pull>, :!out;
 
-say "Running updater {Ecosystem::Archive::Update.^ver}";
+say "Running updater v{Ecosystem::Archive::Update.^ver}";
 $then = now;
 my $ea = Ecosystem::Archive::Update.new(:$degree,:$batch);
 say "Took &msecs() to read $ea.identities.elems() identities";
@@ -43,7 +43,7 @@ if $commit {
     my $meta    = so $status.untracked.first: *.starts-with: 'meta';
     if $archive || $meta {
         run <git add archive meta>;
-        run <git commit -a -m>, "Additions at {
+        run <git commit META.json archive meta -m>, "Additions at {
             DateTime.now.utc.Str.substr(0,16)
         }";
 
