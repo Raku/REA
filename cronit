@@ -1,0 +1,5 @@
+loop {
+    say "Waiting for next update on {(now + 3600).DateTime.Str.substr(11,5)} UTC";
+    sleep 3600;
+    try run <raku update --commit --push>;
+}
