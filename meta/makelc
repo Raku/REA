@@ -1,0 +1,12 @@
+for dir().grep(*.d)>>.relative.sort -> $letter {
+    say $letter;
+    indir $letter, {
+        for dir().grep(*.d)>>.relative.grep({ $_ ne .lc }).sort -> $basename {
+            say "  $basename";
+            my $proc = shell qq/git mv "$basename" wop; git mv wop "$basename.lc()"/;
+            if $proc.exitcode -> $error {
+                die "Failed: $error";
+            }
+        }
+    }
+}
