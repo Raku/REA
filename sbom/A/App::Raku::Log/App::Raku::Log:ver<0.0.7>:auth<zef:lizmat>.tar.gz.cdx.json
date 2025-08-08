@@ -1,0 +1,288 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T19:29:57+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "ElizabethMattijsen",
+        "name": "Elizabeth Mattijsen"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:lizmat/App::Raku::Log@0.0.7",
+      "authors": [
+        {
+          "bom-ref": "ElizabethMattijsen",
+          "name": "Elizabeth Mattijsen"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:lizmat",
+      "name": "App::Raku::Log",
+      "version": "0.0.7",
+      "description": "Cro application for presenting Raku IRC logs",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "4e35dc11fc012ff03506fb60f2884887"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a19524b16af5fbff39f82346c03ad18990f79d4b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4536c6aadfa40db54a3192a957b62ed9cf2b87413330a142d368f1695623219e"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "b3e102f351d82d58eb5bce7fabe9c6648b46fcc31ef4bcac4bbbf4c748a3eabbf0909dc31783bd23a65cc53bf42a8738"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d7b651af65c8c386691a8e9bec8c0ac541c42e99f7d65bd34ad8d1bcd74c0551bfe39db82cc4f994630a48303e5200089234f2594f2b1999ad8fb90cbafa579b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:lizmat/App::Raku::Log@0.0.7",
+      "externalReferences": [
+        {
+          "url": "https://github.com/lizmat/App-Raku-Log",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:lizmat/App::Raku::Log?v=0.0.7",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/lizmat/App-Raku-Log/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/lizmat/App-Raku-Log/archive/refs/tags/0.0.7.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "Artistic-2.0",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/Artistic-2.0.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/lizmat/App-Raku-Log",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:lizmat/App::Raku::Log?v=0.0.7",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/lizmat/App-Raku-Log/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/Artistic-2.0.json",
+      "type": "license"
+    },
+    {
+      "url": "https://github.com/lizmat/App-Raku-Log/archive/refs/tags/0.0.7.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

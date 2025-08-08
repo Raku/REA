@@ -1,0 +1,257 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T22:24:50+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "ZoffixZnet",
+        "name": "Zoffix Znet"
+      },
+      {
+        "bom-ref": "Rakucommunity",
+        "name": "Raku community"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:raku-community-modules/Testo@1.003007",
+      "authors": [
+        {
+          "bom-ref": "ZoffixZnet",
+          "name": "Zoffix Znet"
+        },
+        {
+          "bom-ref": "Rakucommunity",
+          "name": "Raku community"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:raku-community-modules",
+      "name": "Testo",
+      "version": "1.003007",
+      "description": "Raku Testing Done Right",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "5d469b254d08e293c614d434b5f6e5ea"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a1ac7b40ed4ed48d0672b9e78f23fdb598efef68"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a05c4cb5b5fe894c669cfc2a14e57fe9e2ddb62702b8e5e81c273e6a9b2eacbf"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "7be674962dd3ed6aa668658642b45a217c8364efeb49afe0719538772f77d476ca018af206ab83aaa40733b5844d0c05"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5dfac5c28d366c712f33ca8f55af3a10a8c7e3ec17727c9b1b3596ee5bee6482d8d91c1f8de52fefafc3eb7821394dfe8894b1fd0d7c89684b6b7dc49bbe0887"
+        }
+      ],
+      "purl": "pkg:raku/zef:raku-community-modules/Testo@1.003007",
+      "externalReferences": [
+        {
+          "url": "git://github.com/raku-community-modules/Testo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:raku-community-modules/Testo?v=1.003007",
+          "type": "documentation"
+        }
+      ],
+      "tags": [
+        "Testing"
+      ]
+    },
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "git://github.com/raku-community-modules/Testo",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:raku-community-modules/Testo?v=1.003007",
+      "type": "documentation"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T19:27:08+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "ShimonBollinger",
+        "name": "Shimon Bollinger"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:deoac/App::APOTD@1.0.1",
+      "authors": [
+        {
+          "bom-ref": "ShimonBollinger",
+          "name": "Shimon Bollinger"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:deoac",
+      "name": "App::APOTD",
+      "version": "1.0.1",
+      "description": "Download today's Astronomy Picture of the Day",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "749b5d3c36be6ce7207d82b69746e357"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "fc683dbcaf58087a7a58b84fe13cbe9d27b9fa44"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "66a6ac5b3d9e889ca3f0f358562ae448f91b47e3508f33f9f4b3f8b39482c2fc"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "b95140a44d4f3190c61c94bceff08ff91c9880d5fb31c48e0b7b42a258f3bc7537cd9a2c82865d6a96a0c0dbf956f7a4"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b4a296ba780b043badb637595b3dd1c4a58d1ebea81180f2cc0fe7199f3f19a21b0e8211dc96a7db5b9cfb156366a47cd34bdbb93dae612d319a00830166c929"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:deoac/App::APOTD@1.0.1",
+      "externalReferences": [
+        {
+          "url": "https://github.com/deoac/apotd",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:deoac/App::APOTD?v=1.0.1",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/deoac/apotd/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/deoac/apotd/archive/refs/tags/1.0.1.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "Artistic-2.0",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/Artistic-2.0.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/deoac/apotd",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:deoac/App::APOTD?v=1.0.1",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/deoac/apotd/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/Artistic-2.0.json",
+      "type": "license"
+    },
+    {
+      "url": "https://github.com/deoac/apotd/archive/refs/tags/1.0.1.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

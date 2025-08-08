@@ -1,0 +1,276 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T21:40:56+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "DavidWarring",
+        "name": "David Warring"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/cpan:WARRINGD/PDF::Font::Loader@0.6.8",
+      "authors": [
+        {
+          "bom-ref": "DavidWarring",
+          "name": "David Warring"
+        }
+      ],
+      "publisher": "cpan",
+      "group": "cpan:WARRINGD",
+      "name": "PDF::Font::Loader",
+      "version": "0.6.8",
+      "description": "Font loading and embedding for the PDF tool-chain",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "565f985dc60ceb3e2e5cdbad00727370"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "20e0867f2fb11c777cbb8cc382bf0b1c02bb3e1a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d1b703c514114097b95b06fb1edc031b133e99d97b6f84a93e749f2e69abcbe9"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ffa8fbfbd2f2851df5ce8761d3d50109b24e3c8eb6051fbdbede9c5830f3322872810734621529f4b55c14bb85ef4762"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "178d3e86806d9e219d290b02aa09b7d77464590bb3e180a6edc2727f3977409926f20371161b6c077e0f5860d50d10912c685f5a578990e293ca47da4d563ec0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/cpan:WARRINGD/PDF::Font::Loader@0.6.8",
+      "externalReferences": [
+        {
+          "url": "git://github.com/pdf-raku/PDF-Font-Loader-raku",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/cpan:WARRINGD/PDF::Font::Loader?v=0.6.8",
+          "type": "documentation"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        }
+      ],
+      "tags": [
+        "pdf",
+        "font"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "Artistic-2.0",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/Artistic-2.0.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "git://github.com/pdf-raku/PDF-Font-Loader-raku",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/cpan:WARRINGD/PDF::Font::Loader?v=0.6.8",
+      "type": "documentation"
+    },
+    {
+      "url": "https://spdx.org/licenses/Artistic-2.0.json",
+      "type": "license"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

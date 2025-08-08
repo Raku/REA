@@ -1,0 +1,288 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T19:27:28+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "TimoPaulssen",
+        "name": "Timo Paulssen"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/cpan:TIMOTIMO/App::MoarVM::ConfprogCompiler@0.0.5",
+      "authors": [
+        {
+          "bom-ref": "TimoPaulssen",
+          "name": "Timo Paulssen"
+        }
+      ],
+      "publisher": "cpan",
+      "group": "cpan:TIMOTIMO",
+      "name": "App::MoarVM::ConfprogCompiler",
+      "version": "0.0.5",
+      "description": "Compiler for MoarVM's confprog subsystem",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f893a7ad6a199fb2c2d233ca6c75d595"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f20a733b3a3add0bbf0ecc0b04f37b93a3cc2552"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5c27037b1802a64327894d749bbcd5b709e64c4981963719e428edbe6a0e1d25"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "deb20ae60f0b4c5388a9809b83284d3f425d6f275f88cf78d7ca6f8692ee1ba547c6f64486e232f522c4d305e0b7eb67"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f664420122d4f386f4e912d2437b8df75ab7cb0e87f80509c6d390096fee5e975997cb54514ef9104b22d4e8eceec2a0d59dee42e0a46d0600faaa2e625dceca"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/cpan:TIMOTIMO/App::MoarVM::ConfprogCompiler@0.0.5",
+      "externalReferences": [
+        {
+          "url": "https://github.com/timo/App-MoarVM-ConfprogCompiler",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/cpan:TIMOTIMO/App::MoarVM::ConfprogCompiler?v=0.0.5",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/timo/App-MoarVM-ConfprogCompiler/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/timo/App-MoarVM-ConfprogCompiler/archive/refs/tags/0.0.5.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "Artistic-2.0",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/Artistic-2.0.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/timo/App-MoarVM-ConfprogCompiler",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/cpan:TIMOTIMO/App::MoarVM::ConfprogCompiler?v=0.0.5",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/timo/App-MoarVM-ConfprogCompiler/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/Artistic-2.0.json",
+      "type": "license"
+    },
+    {
+      "url": "https://github.com/timo/App-MoarVM-ConfprogCompiler/archive/refs/tags/0.0.5.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

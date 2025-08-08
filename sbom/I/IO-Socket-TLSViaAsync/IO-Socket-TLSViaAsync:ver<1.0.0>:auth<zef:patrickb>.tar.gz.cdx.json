@@ -1,0 +1,295 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T20:12:35+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "PatrickBökerpatrickboekerposteode",
+        "name": "Patrick Böker",
+        "email": "patrick.boeker@posteo.de"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:patrickb/IO-Socket-TLSViaAsync@1.0.0",
+      "authors": [
+        {
+          "bom-ref": "PatrickBökerpatrickboekerposteode",
+          "name": "Patrick Böker",
+          "email": "patrick.boeker@posteo.de"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:patrickb",
+      "name": "IO-Socket-TLSViaAsync",
+      "version": "1.0.0",
+      "description": "Synchronous TLS sockets",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "520d8b2bb34b8f20a8c190fed503a325"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e2b70403ca991c91cfd76422a8f3f8391640d2d0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "24f280dbdf9522f252306aeff40b3836b13b628a8b3dde6ac81ed0c247749977"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f81efb63893160392ebd14a9fa8196aa1f0d033d34b9b8663b68490e9b639693b28d1b618e0619b62f14c1cb602ffce6"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b2f172c62173210f9cc661356dc3cc1f6a35a8bfa9233307c6b6a26c94ffaecee1e1a99b6aa49154b0fd75d6c00e2687af7532cf5c1c0a2675cf72529cd17c4e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:patrickb/IO-Socket-TLSViaAsync@1.0.0",
+      "externalReferences": [
+        {
+          "url": "https://git.sr.ht/~patrickb/IO-Socket-TLSViaAsync",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:patrickb/IO-Socket-TLSViaAsync?v=1.0.0",
+          "type": "documentation"
+        },
+        {
+          "url": "https://todo.sr.ht/~patrickb/IO-Socket-TLSViaAsync",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://lists.sr.ht/~patrickb/IO-Socket-TLSViaAsync-devel",
+          "type": "mailing-list"
+        }
+      ],
+      "tags": [
+        "TLS",
+        "SSL",
+        "Sockets"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "Artistic-2.0",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/Artistic-2.0.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://git.sr.ht/~patrickb/IO-Socket-TLSViaAsync",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:patrickb/IO-Socket-TLSViaAsync?v=1.0.0",
+      "type": "documentation"
+    },
+    {
+      "url": "https://todo.sr.ht/~patrickb/IO-Socket-TLSViaAsync",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/Artistic-2.0.json",
+      "type": "license"
+    },
+    {
+      "url": "https://lists.sr.ht/~patrickb/IO-Socket-TLSViaAsync-devel",
+      "type": "mailing-list"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

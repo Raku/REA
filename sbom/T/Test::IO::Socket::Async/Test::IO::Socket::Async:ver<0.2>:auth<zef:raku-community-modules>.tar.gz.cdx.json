@@ -1,0 +1,345 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T22:24:25+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "JonathanWorthington",
+        "name": "Jonathan Worthington"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:raku-community-modules/Test::IO::Socket::Async@0.2",
+      "authors": [
+        {
+          "bom-ref": "JonathanWorthington",
+          "name": "Jonathan Worthington"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:raku-community-modules",
+      "name": "Test::IO::Socket::Async",
+      "version": "0.2",
+      "description": "A test double for IO::Socket::Async",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f04cfb3ff4729b51f90c9c21a5f1ead0"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "509849e80ed624841481d8d4a2e523237dcb707f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ebda29684328424c1d1e83e17bf655481541c0e00cb05dc792483afcc5cab7a2"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f6c18ce1d766c62ac02c65295b1f7727c3f60336bbfcf8a8619ae42c3e2c7f418f3cec4d813c2bc5ccb61c40af2980a8"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4520fe5569af0e51b3e7cb36f0f220f40440aa8e6615beb9686ae9b28bf1e4e20fb0af1ff22b2df695361befbe9deeb2a94a7feba1ff4c9a06bb4fc008c358ee"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:raku-community-modules/Test::IO::Socket::Async@0.2",
+      "externalReferences": [
+        {
+          "url": "https://github.com/raku-community-modules/Test-IO-Socket-Async",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:raku-community-modules/Test::IO::Socket::Async?v=0.2",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/raku-community-modules/Test-IO-Socket-Async/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/raku-community-modules/Test-IO-Socket-Async/archive/refs/tags/0.2.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "Artistic-2.0",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/Artistic-2.0.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/OO::Monitors",
+      "authors": [
+        {
+          "bom-ref": "JonathanWorthington",
+          "name": "Jonathan Worthington"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:raku-community-modules",
+      "name": "OO::Monitors",
+      "version": "1.1.5",
+      "description": "Objects with mutual exclusion and condition variables",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:raku-community-modules/OO::Monitors@1.1.5",
+      "externalReferences": [
+        {
+          "url": "https://github.com/raku-community-modules/OO-Monitors",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:raku-community-modules/OO::Monitors?v=1.1.5",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/raku-community-modules/OO-Monitors/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/raku-community-modules/OO-Monitors/archive/refs/tags/1.1.5.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "OO",
+        "concurrency",
+        "MOP"
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/raku-community-modules/Test-IO-Socket-Async",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:raku-community-modules/Test::IO::Socket::Async?v=0.2",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/raku-community-modules/Test-IO-Socket-Async/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/Artistic-2.0.json",
+      "type": "license"
+    },
+    {
+      "url": "https://github.com/raku-community-modules/Test-IO-Socket-Async/archive/refs/tags/0.2.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/OO::Monitors"
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

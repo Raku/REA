@@ -1,0 +1,282 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T19:38:40+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "SiavashAskariNasr",
+        "name": "Siavash Askari Nasr"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:CIAvash/Curry@0.2.1",
+      "authors": [
+        {
+          "bom-ref": "SiavashAskariNasr",
+          "name": "Siavash Askari Nasr"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:CIAvash",
+      "name": "Curry",
+      "version": "0.2.1",
+      "description": "Library for making curried functions.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b5f89e8032a27cdb961ddf40bb3a5e33"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "77a069d0d9600c3afc72465c4bfaaa4e4080eed9"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "51310922584d4bac66fab18fd35b4e79889a41f8cb56eb62006d58a1df9e8670"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "d2f2b31dbb00c29a9b67f18fd4e7585da420e04965b8c21e4950188fd1ec66a75c209a87937160c64600ed4846838a33"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d02f7c45931805d414fa1d3b15663aeb68714ea1bc4f897e962d89285bb490fe7158ef2949bf2fffa5cdd41cbfedf7a7b689417b196901067ac04e5cdeca8b30"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-3.0-or-later",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/LGPL-3.0-or-later.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:CIAvash/Curry@0.2.1",
+      "externalReferences": [
+        {
+          "url": "https://codeberg.org/CIAvash/Curry",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:CIAvash/Curry?v=0.2.1",
+          "type": "documentation"
+        },
+        {
+          "url": "https://spdx.org/licenses/LGPL-3.0-or-later.json",
+          "type": "license"
+        }
+      ],
+      "tags": [
+        "Curry",
+        "Function",
+        "Library",
+        "Currying",
+        "Functional Programming",
+        "Curried",
+        "Partial",
+        "Trait"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "LGPL-3.0-or-later",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/LGPL-3.0-or-later.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://codeberg.org/CIAvash/Curry",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:CIAvash/Curry?v=0.2.1",
+      "type": "documentation"
+    },
+    {
+      "url": "https://spdx.org/licenses/LGPL-3.0-or-later.json",
+      "type": "license"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

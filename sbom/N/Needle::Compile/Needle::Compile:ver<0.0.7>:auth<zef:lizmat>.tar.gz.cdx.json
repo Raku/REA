@@ -1,0 +1,414 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T21:10:21+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "ElizabethMattijsen",
+        "name": "Elizabeth Mattijsen"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:lizmat/Needle::Compile@0.0.7",
+      "authors": [
+        {
+          "bom-ref": "ElizabethMattijsen",
+          "name": "Elizabeth Mattijsen"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:lizmat",
+      "name": "Needle::Compile",
+      "version": "0.0.7",
+      "description": "Compile a search needle specification",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "af17b300c9b68a7300bcd197f304e4c6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "bfb661530d0058fae01fded96688814a0a1537f2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "611191e0859a07ac24523810f9850f1c7efbd81bdd8c81b475e7e5e2cb8f42c6"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "5ca384c35280c62ddb9aa074750f522237b079853a97daa4f5a84d78dcbe02037f1d9d530e3b760b68bef4c1d9e01b3b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c8e7fcfdcc4a7dbf6dbb118d91dabe8d7bef8ef468c5775df724bdf7ff1565f7f8e4151999b2e5ee986a9d5c2e1103b4573e80f8419526f14ef1e2c335e59271"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:lizmat/Needle::Compile@0.0.7",
+      "externalReferences": [
+        {
+          "url": "https://github.com/lizmat/Needle-Compile",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:lizmat/Needle::Compile?v=0.0.7",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/lizmat/Needle-Compile/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/lizmat/Needle-Compile/archive/refs/tags/0.0.7.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "SEARCHING",
+        "CLI",
+        "RAKUAST",
+        "RAK"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "Artistic-2.0",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/Artistic-2.0.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:lizmat/String::Utils?vers=vers:raku/%3E=0.0.26",
+      "authors": [
+        {
+          "bom-ref": "ElizabethMattijsen",
+          "name": "Elizabeth Mattijsen"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:lizmat",
+      "name": "String::Utils",
+      "version": "0.0.36",
+      "description": "Provide some optimized string functions",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:lizmat/String::Utils@0.0.36",
+      "externalReferences": [
+        {
+          "url": "https://github.com/lizmat/String-Utils",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:lizmat/String::Utils?v=0.0.36",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/lizmat/String-Utils/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/lizmat/String-Utils/archive/refs/tags/0.0.36.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "STRING",
+        "UTIL",
+        "CHOMP",
+        "SHA1",
+        "STEM",
+        "NGRAM",
+        "NAUGHTY",
+        "WORD",
+        "MARKS"
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:lizmat/has-word?vers=vers:raku/%3E=0.0.6",
+      "authors": [
+        {
+          "bom-ref": "ElizabethMattijsen",
+          "name": "Elizabeth Mattijsen"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:lizmat",
+      "name": "has-word",
+      "version": "0.0.6",
+      "description": "A quick non-regex word-boundary checker",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:lizmat/has-word@0.0.6",
+      "externalReferences": [
+        {
+          "url": "https://github.com/lizmat/has-word",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:lizmat/has-word?v=0.0.6",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/lizmat/has-word/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/lizmat/has-word/archive/refs/tags/0.0.6.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "WORD",
+        "SEARCH",
+        "FIND"
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/lizmat/Needle-Compile",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:lizmat/Needle::Compile?v=0.0.7",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/lizmat/Needle-Compile/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/Artistic-2.0.json",
+      "type": "license"
+    },
+    {
+      "url": "https://github.com/lizmat/Needle-Compile/archive/refs/tags/0.0.7.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/String::Utils?vers=vers:raku/%3E=0.0.26"
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/has-word?vers=vers:raku/%3E=0.0.6"
+    }
+  ]
+}

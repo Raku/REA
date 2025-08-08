@@ -1,0 +1,859 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T20:29:23+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "ElizabethMattijsen",
+        "name": "Elizabeth Mattijsen"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:l10n/L10N::Complete@0.0.1",
+      "authors": [
+        {
+          "bom-ref": "ElizabethMattijsen",
+          "name": "Elizabeth Mattijsen"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:l10n",
+      "name": "L10N::Complete",
+      "version": "0.0.1",
+      "description": "All official localizations of Raku",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "2797d8bfcd132e477621db3ced14c307"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2901a2d0f2c53e87442a323f1ad0304bc1a41e2c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e9ca7dffb629b9c2631293079993066dfca7da8a6fbde0ee70c6efd9da042c1c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "c0a88af9f46bc7d93e73be7ca1b315136e8a673421de230564ea047bf449dc06133d6f7440b413b643f0519c3403ec88"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f6fced04d4a6d384ecc773b74eac08588469bd649880007121c6ba70ce9d94276e3cc8a9445190bf8246d8d74179f7d89937edc67135158f29ff747b4ebf2fa5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:l10n/L10N::Complete@0.0.1",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Raku-L10N/L10N-Complete",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:l10n/L10N::Complete?v=0.0.1",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/Raku-L10N/L10N-Complete/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/Raku-L10N/L10N-Complete/archive/refs/tags/0.0.1.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "LOCALIZATION"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "Artistic-2.0",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/Artistic-2.0.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:l10n/L10N::CY?vers=vers:raku/%3E=0.0.5",
+      "authors": [
+        {
+          "bom-ref": "RichardHainsworth",
+          "name": "Richard Hainsworth"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:l10n",
+      "name": "L10N::CY",
+      "version": "0.0.7",
+      "description": "Welsh localization of Raku",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:l10n/L10N::CY@0.0.7",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Raku-L10N/CY",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:l10n/L10N::CY?v=0.0.7",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/Raku-L10N/CY/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/Raku-L10N/CY/archive/refs/tags/0.0.7.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "LOCALIZATION",
+        "WELSH",
+        "CY"
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:l10n/L10N::DE?vers=vers:raku/%3E=0.0.2",
+      "authors": [
+        {
+          "bom-ref": "ElizabethMattijsen",
+          "name": "Elizabeth Mattijsen"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:l10n",
+      "name": "L10N::DE",
+      "version": "0.0.4",
+      "description": "German localization of Raku",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:l10n/L10N::DE@0.0.4",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Raku-L10N/DE",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:l10n/L10N::DE?v=0.0.4",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/Raku-L10N/DE/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/Raku-L10N/DE/archive/refs/tags/0.0.4.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "LOCALIZATION",
+        "GERMAN",
+        "DE"
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:l10n/L10N::EN?vers=vers:raku/%3E=0.0.3",
+      "authors": [
+        {
+          "bom-ref": "ElizabethMattijsen",
+          "name": "Elizabeth Mattijsen"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:l10n",
+      "name": "L10N::EN",
+      "version": "0.0.4",
+      "description": "English localization of Raku",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:l10n/L10N::EN@0.0.4",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Raku-L10N/EN",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:l10n/L10N::EN?v=0.0.4",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/Raku-L10N/EN/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/Raku-L10N/EN/archive/refs/tags/0.0.4.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "LOCALIZATION",
+        "ENGLISH",
+        "EN"
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:l10n/L10N::FR?vers=vers:raku/%3E=0.0.2",
+      "authors": [
+        {
+          "bom-ref": "LucienGrondin",
+          "name": "Lucien Grondin"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:l10n",
+      "name": "L10N::FR",
+      "version": "0.0.3",
+      "description": "French localization of Raku",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:l10n/L10N::FR@0.0.3",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Raku-L10N/FR",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:l10n/L10N::FR?v=0.0.3",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/Raku-L10N/FR/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/Raku-L10N/FR/archive/refs/tags/0.0.3.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "LOCALIZATION",
+        "FRENCH",
+        "FR"
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:l10n/L10N::HU?vers=vers:raku/%3E=0.0.2",
+      "authors": [
+        {
+          "bom-ref": "PolgárMártonMartinBurger",
+          "name": "Polgár Márton (Martin Burger)"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:l10n",
+      "name": "L10N::HU",
+      "version": "0.0.3",
+      "description": "Hungarian localization of Raku",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:l10n/L10N::HU@0.0.3",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Raku-L10N/HU",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:l10n/L10N::HU?v=0.0.3",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/Raku-L10N/HU/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/Raku-L10N/HU/archive/refs/tags/0.0.3.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "LOCALIZATION",
+        "HUNGARIAN",
+        "HU"
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:l10n/L10N::IT?vers=vers:raku/%3E=0.0.2",
+      "authors": [
+        {
+          "bom-ref": "JJMerelo",
+          "name": "JJ Merelo"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:l10n",
+      "name": "L10N::IT",
+      "version": "0.0.3",
+      "description": "Italian localization of Raku",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:l10n/L10N::IT@0.0.3",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Raku-L10N/IT",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:l10n/L10N::IT?v=0.0.3",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/Raku-L10N/IT/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/Raku-L10N/IT/archive/refs/tags/0.0.3.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "LOCALIZATION",
+        "ITALIAN",
+        "IT"
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:l10n/L10N::JA?vers=vers:raku/%3E=0.0.2",
+      "authors": [
+        {
+          "bom-ref": "RichardHainsworth",
+          "name": "Richard Hainsworth"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:l10n",
+      "name": "L10N::JA",
+      "version": "0.0.3",
+      "description": "Japanese localization of Raku",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:l10n/L10N::JA@0.0.3",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Raku-L10N/JA",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:l10n/L10N::JA?v=0.0.3",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/Raku-L10N/JA/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/Raku-L10N/JA/archive/refs/tags/0.0.3.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "LOCALIZATION",
+        "JAPANESE",
+        "JA"
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:l10n/L10N::NL?vers=vers:raku/%3E=0.0.3",
+      "authors": [
+        {
+          "bom-ref": "ElizabethMattijsen",
+          "name": "Elizabeth Mattijsen"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:l10n",
+      "name": "L10N::NL",
+      "version": "0.0.6",
+      "description": "Dutch localization of Raku",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:l10n/L10N::NL@0.0.6",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Raku-L10N/NL",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:l10n/L10N::NL?v=0.0.6",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/Raku-L10N/NL/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/Raku-L10N/NL/archive/refs/tags/0.0.6.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "LOCALIZATION",
+        "DUTCH",
+        "NL"
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:l10n/L10N::PT?vers=vers:raku/%3E=0.0.2",
+      "authors": [
+        {
+          "bom-ref": "FernandoCorrêadeOliveira",
+          "name": "Fernando Corrêa de Oliveira"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:l10n",
+      "name": "L10N::PT",
+      "version": "0.0.3",
+      "description": "Portuguese localization of Raku",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:l10n/L10N::PT@0.0.3",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Raku-L10N/PT",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:l10n/L10N::PT?v=0.0.3",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/Raku-L10N/PT/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/Raku-L10N/PT/archive/refs/tags/0.0.3.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "LOCALIZATION",
+        "PORTUGUESE",
+        "PT"
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:l10n/L10N?vers=vers:raku/%3E=0.0.4",
+      "authors": [
+        {
+          "bom-ref": "ElizabethMattijsen",
+          "name": "Elizabeth Mattijsen"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:l10n",
+      "name": "L10N",
+      "version": "0.1.4",
+      "description": "Support logic for official localizations of Raku",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:l10n/L10N@0.1.4",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Raku-L10N/L10N",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:l10n/L10N?v=0.1.4",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/Raku-L10N/L10N/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/Raku-L10N/L10N/archive/refs/tags/0.1.4.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "LOCALIZATION"
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/Raku-L10N/L10N-Complete",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:l10n/L10N::Complete?v=0.0.1",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/Raku-L10N/L10N-Complete/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/Artistic-2.0.json",
+      "type": "license"
+    },
+    {
+      "url": "https://github.com/Raku-L10N/L10N-Complete/archive/refs/tags/0.0.1.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:l10n/L10N::CY?vers=vers:raku/%3E=0.0.5"
+    },
+    {
+      "ref": "pkg:raku/zef:l10n/L10N::DE?vers=vers:raku/%3E=0.0.2"
+    },
+    {
+      "ref": "pkg:raku/zef:l10n/L10N::EN?vers=vers:raku/%3E=0.0.3"
+    },
+    {
+      "ref": "pkg:raku/zef:l10n/L10N::FR?vers=vers:raku/%3E=0.0.2"
+    },
+    {
+      "ref": "pkg:raku/zef:l10n/L10N::HU?vers=vers:raku/%3E=0.0.2"
+    },
+    {
+      "ref": "pkg:raku/zef:l10n/L10N::IT?vers=vers:raku/%3E=0.0.2"
+    },
+    {
+      "ref": "pkg:raku/zef:l10n/L10N::JA?vers=vers:raku/%3E=0.0.2"
+    },
+    {
+      "ref": "pkg:raku/zef:l10n/L10N::NL?vers=vers:raku/%3E=0.0.3"
+    },
+    {
+      "ref": "pkg:raku/zef:l10n/L10N::PT?vers=vers:raku/%3E=0.0.2"
+    },
+    {
+      "ref": "pkg:raku/zef:l10n/L10N?vers=vers:raku/%3E=0.0.4"
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

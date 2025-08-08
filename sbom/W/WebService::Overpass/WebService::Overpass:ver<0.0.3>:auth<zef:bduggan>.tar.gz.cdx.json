@@ -1,0 +1,275 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T22:33:55+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "BrianDuggan",
+        "name": "Brian Duggan"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:bduggan/WebService::Overpass@0.0.3",
+      "authors": [
+        {
+          "bom-ref": "BrianDuggan",
+          "name": "Brian Duggan"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:bduggan",
+      "name": "WebService::Overpass",
+      "version": "0.0.3",
+      "description": "Simple wrapper to call the overpass API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7d043d79a229f0d7a4f6da1aa0455fdd"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5df99558f0d9e21d86e386b9e7b9173d7822a7c8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "65f109653fab28c0586a304268b0ec19ac55d5a7a3c6c46e31f8b9c2667b4652"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "27b6c34005eb19c288a4a608b436a850b09fc723e4c959bcd108292afdb92df748cdfa197db1c3bdc38ac5effe88bd33"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3359960994dce886100b24229354d173af5091800b9e3ddaecb3ccdae5b81f272e76997004b7483522a9c3543da4a83ea1f1ed0a15bad52e8280038a26ca2dca"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/MIT.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:bduggan/WebService::Overpass@0.0.3",
+      "externalReferences": [
+        {
+          "url": "git://github.com/bduggan/raku-webservice-overpass",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:bduggan/WebService::Overpass?v=0.0.3",
+          "type": "documentation"
+        },
+        {
+          "url": "https://spdx.org/licenses/MIT.json",
+          "type": "license"
+        }
+      ],
+      "tags": [
+        "geo"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/MIT.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "git://github.com/bduggan/raku-webservice-overpass",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:bduggan/WebService::Overpass?v=0.0.3",
+      "type": "documentation"
+    },
+    {
+      "url": "https://spdx.org/licenses/MIT.json",
+      "type": "license"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T19:46:51+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "BrianDuggan",
+        "name": "Brian Duggan"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:bduggan/Duckie@0.0.6",
+      "authors": [
+        {
+          "bom-ref": "BrianDuggan",
+          "name": "Brian Duggan"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:bduggan",
+      "name": "Duckie",
+      "version": "0.0.6",
+      "description": "Raku bindings and wrapper for DuckDB",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "68f1993bb497546998153598df90ebf1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "878eb4f6cc67a2bade7361f822cff9c3a347713b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "583a65543e698457ad347497273c1085cbb5908937d02457f60387203589a8b3"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "821f20de982d82d5b5e629f24a0e8da4bdd26a27419e2f5a483d47d79373f3e98abe66418ded9b28455b43661d28625e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "cb31301165fa6e39c908b444c57898f4aa07c39cde0411c797531a5d3bbd4b7d87fdb347a301890d71ee9250875da3713d00f866ef340a37843a33333d10ee50"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/MIT.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:bduggan/Duckie@0.0.6",
+      "externalReferences": [
+        {
+          "url": "https://github.com/bduggan/raku-duckie",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:bduggan/Duckie?v=0.0.6",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/bduggan/raku-duckie/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/MIT.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/bduggan/raku-duckie/archive/refs/tags/0.0.6.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "database",
+        "duckdb"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/MIT.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/bduggan/raku-duckie",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:bduggan/Duckie?v=0.0.6",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/bduggan/raku-duckie/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/MIT.json",
+      "type": "license"
+    },
+    {
+      "url": "https://github.com/bduggan/raku-duckie/archive/refs/tags/0.0.6.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

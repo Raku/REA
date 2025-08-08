@@ -1,0 +1,267 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T19:37:17+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "atweiden",
+        "name": "atweiden"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:raku-community-modules/Crane@0.1.2",
+      "authors": [
+        {
+          "bom-ref": "atweiden",
+          "name": "atweiden"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:raku-community-modules",
+      "name": "Crane",
+      "version": "0.1.2",
+      "description": "Navigate Raku containers and perform tasks",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a390e3eb2fe2524a8c9d0ccc5ce5da55"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f5bd94a816254283bcf18387819b47fa6b8ebc57"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "58ccf39a4551adf7aae78a55ac4419d32a5374c073b3a1d2309cd6500d6411cd"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "b67ca07e79be76ae55165d40385581e743d0365f64a1e2e9aa9015386029360c7b25b1366aeca195a3635b1b1f0b993e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3ffff93f8d2217f465fad9ab50a621b923701dd14483aa2f06ae0afaa158cdd70a0276e939101bc79a0865c6e40f77e880549fc7ff529df25ba8de17a936e732"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Unlicense",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Unlicense.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:raku-community-modules/Crane@0.1.2",
+      "externalReferences": [
+        {
+          "url": "https://raku.land/zef:raku-community-modules/Crane?v=0.1.2",
+          "type": "documentation"
+        },
+        {
+          "url": "https://spdx.org/licenses/Unlicense.json",
+          "type": "license"
+        }
+      ],
+      "tags": [
+        "PATH"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "Unlicense",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/Unlicense.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://raku.land/zef:raku-community-modules/Crane?v=0.1.2",
+      "type": "documentation"
+    },
+    {
+      "url": "https://spdx.org/licenses/Unlicense.json",
+      "type": "license"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

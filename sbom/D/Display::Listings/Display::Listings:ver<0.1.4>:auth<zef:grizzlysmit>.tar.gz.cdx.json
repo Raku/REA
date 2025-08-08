@@ -1,0 +1,305 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T19:46:05+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "FrancisGrizzlySmitgrizzlysmitidau",
+        "name": "Francis Grizzly Smit",
+        "email": "grizzly@smit.id.au"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:grizzlysmit/Display::Listings@0.1.4",
+      "authors": [
+        {
+          "bom-ref": "FrancisGrizzlySmitgrizzlysmitidau",
+          "name": "Francis Grizzly Smit",
+          "email": "grizzly@smit.id.au"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:grizzlysmit",
+      "name": "Display::Listings",
+      "version": "0.1.4",
+      "description": "A Raku module for displaying lines in a listing.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "551a2c53de514cf996dbc0f96223096e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "eff81ea54a95d90d7c8407271927ace2052257db"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e110e216b79760031e97b59e4ac002fbed361f6ab51bc88fdc6dea13b2217dc7"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "611a85845c96f871da2b7f960a47f3ed7f921812ac49d941aee183cda924ccba02ba60f0dff25dbf212397f72b17c9e0"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5aff5dea70ffc9ae94503427e505cecb4ba83dc2e4d052cb998799b7eafcbc9ea3e99cc58f668362a1fed836acf2055b967c549ffc77a8d822d8e9e7ab0e8754"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-3.0-or-later",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/LGPL-3.0-or-later.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:grizzlysmit/Display::Listings@0.1.4",
+      "externalReferences": [
+        {
+          "url": "https://github.com/grizzlysmit/Display-Listings",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:grizzlysmit/Display::Listings?v=0.1.4",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/grizzlysmit/Display-Listings/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/LGPL-3.0-or-later.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/grizzlysmit/Display-Listings/archive/refs/tags/0.1.4.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "mailto:grizzly@smit.id.au",
+          "type": "support"
+        }
+      ],
+      "tags": [
+        "text",
+        "formatted",
+        "listing",
+        "ANSI",
+        "highlighted"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "LGPL-3.0-or-later",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/LGPL-3.0-or-later.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/grizzlysmit/Display-Listings",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:grizzlysmit/Display::Listings?v=0.1.4",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/grizzlysmit/Display-Listings/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/LGPL-3.0-or-later.json",
+      "type": "license"
+    },
+    {
+      "url": "https://github.com/grizzlysmit/Display-Listings/archive/refs/tags/0.1.4.zip",
+      "type": "source-distribution"
+    },
+    {
+      "url": "mailto:grizzly@smit.id.au",
+      "type": "support"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

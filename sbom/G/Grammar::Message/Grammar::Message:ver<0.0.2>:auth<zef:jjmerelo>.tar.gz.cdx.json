@@ -1,0 +1,343 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T20:01:42+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "JJMerelo",
+        "name": "J. J. Merelo "
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:jjmerelo/Grammar::Message@0.0.2",
+      "authors": [
+        {
+          "bom-ref": "JJMerelo",
+          "name": "J. J. Merelo "
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:jjmerelo",
+      "name": "Grammar::Message",
+      "version": "0.0.2",
+      "description": "Nice messages for grammars and regexes",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e537942a08085e30f06b9ea76b780bfe"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3b2445209534386d06581614e90dfe114c336252"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "050d818a807ef0e0bde4daf7f80164d41fe1274645c3bfcc0a68f164e5f849ad"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "434c149ae0084025d38c4d2e3949b34d9e113c9950093a5f528ad9a05bafc7a10de99f894eba1f5421208c72d72c9b4b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "de2b860fec1c4d421d7a3163a0140e96617457f26d7e865cba533c964e174c76e706434ee323cfd4ddf9d998b5a56d5deb3d71d81f5b1a2314e54cefbdb23cb4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:jjmerelo/Grammar::Message@0.0.2",
+      "externalReferences": [
+        {
+          "url": "https://github.com/JJ/raku-grammar-message",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:jjmerelo/Grammar::Message?v=0.0.2",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/JJ/raku-grammar-message/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/JJ/raku-grammar-message/archive/refs/tags/0.0.2.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "grammars",
+        "exceptions"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "Artistic-2.0",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/Artistic-2.0.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/Terminal::ANSIColor",
+      "authors": [
+        {
+          "bom-ref": "TadeusztadzikSośnierz",
+          "name": "Tadeusz “tadzik” Sośnierz"
+        },
+        {
+          "bom-ref": "ElizabethMattijsen",
+          "name": "Elizabeth Mattijsen"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:raku-community-modules",
+      "name": "Terminal::ANSIColor",
+      "version": "0.13",
+      "description": "Color screen output using ANSI escape sequences",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/MIT.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:raku-community-modules/Terminal::ANSIColor@0.13",
+      "externalReferences": [
+        {
+          "url": "https://raku.land/zef:raku-community-modules/Terminal::ANSIColor?v=0.13",
+          "type": "documentation"
+        },
+        {
+          "url": "https://spdx.org/licenses/MIT.json",
+          "type": "license"
+        }
+      ],
+      "tags": [
+        "TERMINAL",
+        "TERM",
+        "COLOR",
+        "ANSI",
+        "ESCAPE"
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/JJ/raku-grammar-message",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:jjmerelo/Grammar::Message?v=0.0.2",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/JJ/raku-grammar-message/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/Artistic-2.0.json",
+      "type": "license"
+    },
+    {
+      "url": "https://github.com/JJ/raku-grammar-message/archive/refs/tags/0.0.2.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/Terminal::ANSIColor"
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

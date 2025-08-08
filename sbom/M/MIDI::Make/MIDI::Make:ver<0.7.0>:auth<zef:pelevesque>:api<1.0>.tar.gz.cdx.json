@@ -1,0 +1,280 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T20:45:33+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "PierreEmmanuelLévesquepierreelevesquegmailcom",
+        "name": "Pierre-Emmanuel Lévesque",
+        "email": "pierre.e.levesque@gmail.com"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:pelevesque/MIDI::Make@0.7.0:1.0",
+      "authors": [
+        {
+          "bom-ref": "PierreEmmanuelLévesquepierreelevesquegmailcom",
+          "name": "Pierre-Emmanuel Lévesque",
+          "email": "pierre.e.levesque@gmail.com"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:pelevesque",
+      "name": "MIDI::Make",
+      "version": "0.7.0",
+      "description": "A Raku module to make MIDI files.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c4bb0da857276721c0e6814340052982"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ab671c0a31330a879cedace3471fdc7297a96539"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7de2fe544c9c7d8ad7bfc2aa6e8f9816361d74df80ddf441b1407a0ff1c93e0b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "6b51a92c9d0bcb91c052fe601c0f097ec40e0930baa1b6ab2c08a272c4f2202acf90059ed36c57618c3fd16103c9ddc6"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "fe7d2d21176a50280944eec6ef169ddac3ad0e8cf4e2ca34a1c4d936b58f05db296b152dc1d273cfae886046828508e3dc8d6a0ae09850d1e82cf1f08323d2b9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/MIT.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:pelevesque/MIDI::Make@0.7.0:1.0",
+      "externalReferences": [
+        {
+          "url": "git://github.com/pelevesque/MIDI-Make",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:pelevesque/MIDI::Make?v=0.7.0",
+          "type": "documentation"
+        },
+        {
+          "url": "https://spdx.org/licenses/MIT.json",
+          "type": "license"
+        }
+      ],
+      "tags": [
+        "MIDI",
+        "music",
+        "sequencer",
+        "composition"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/MIT.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "git://github.com/pelevesque/MIDI-Make",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:pelevesque/MIDI::Make?v=0.7.0",
+      "type": "documentation"
+    },
+    {
+      "url": "https://spdx.org/licenses/MIT.json",
+      "type": "license"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

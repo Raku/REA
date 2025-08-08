@@ -1,0 +1,431 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T19:51:19+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "GonériLeBouder",
+        "name": "Gonéri Le Bouder"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:raku-community-modules/Email::Notmuch@0.7",
+      "authors": [
+        {
+          "bom-ref": "GonériLeBouder",
+          "name": "Gonéri Le Bouder"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:raku-community-modules",
+      "name": "Email::Notmuch",
+      "version": "0.7",
+      "description": "Raku binding for NotmuchMail email database",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b5030e39e01a42080daf4397c3305d1f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0ec8e0d6521cca9ff5105264033655968cb36c96"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "44908b04fa4f8b8246be0b5986c91b5d275172190dbc26911c9868e8c68d5974"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "26d5bcd408219fee974825b0f4080e429c984261cb66cdabcb187906840808195ccc532a53c9537573d2d1f8b398b641"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5e35dd568a7bb6b24088c8eb2e6559ff5157ceb88b7973e2a76894343c3d7b9d1026516c96bb7df38f8b4e163628325461f6db2b21d8bee5c534e26cb10930b8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-3.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/GPL-3.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:raku-community-modules/Email::Notmuch@0.7",
+      "externalReferences": [
+        {
+          "url": "https://github.com/raku-community-modules/Email-Notmuch",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:raku-community-modules/Email::Notmuch?v=0.7",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/raku-community-modules/Email-Notmuch/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/GPL-3.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/raku-community-modules/Email-Notmuch/archive/refs/tags/0.7.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "EMAIL",
+        "DATABASE",
+        "NOTMUCH"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "GPL-3.0",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/GPL-3.0.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/File::Temp",
+      "authors": [
+        {
+          "bom-ref": "JonathanScottDuff",
+          "name": "Jonathan Scott Duff"
+        },
+        {
+          "bom-ref": "RodTaylor",
+          "name": "Rod Taylor"
+        },
+        {
+          "bom-ref": "MártonPolgár",
+          "name": "Márton Polgár"
+        },
+        {
+          "bom-ref": "TomBrowder",
+          "name": "Tom Browder"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:raku-community-modules",
+      "name": "File::Temp",
+      "version": "0.0.12",
+      "description": "Create temporary files & directories",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:raku-community-modules/File::Temp@0.0.12",
+      "externalReferences": [
+        {
+          "url": "https://github.com/raku-community-modules/File-Temp",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:raku-community-modules/File::Temp?v=0.0.12",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/raku-community-modules/File-Temp/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/raku-community-modules/File-Temp/archive/refs/tags/0.0.12.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "mailto:community@raku.org",
+          "type": "support"
+        }
+      ],
+      "tags": [
+        "FILE",
+        "TEMPFILE",
+        "TEMPDIR"
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:raku-community-modules/File::Directory::Tree?vers=vers:raku/%3E=0.2",
+      "authors": [
+        {
+          "bom-ref": "BrentLaabs",
+          "name": "Brent Laabs"
+        },
+        {
+          "bom-ref": "PaulCochrane",
+          "name": "Paul Cochrane"
+        },
+        {
+          "bom-ref": "ZoffixZnet",
+          "name": "Zoffix Znet"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:raku-community-modules",
+      "name": "File::Directory::Tree",
+      "version": "0.2",
+      "description": "Create, delete and empty directories",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:raku-community-modules/File::Directory::Tree@0.2",
+      "externalReferences": [
+        {
+          "url": "https://github.com/raku-community-modules/File-Directory-Tree",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:raku-community-modules/File::Directory::Tree?v=0.2",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/raku-community-modules/File-Directory-Tree/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/raku-community-modules/File-Directory-Tree/archive/refs/tags/0.2.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "MKTREE",
+        "RMTREE",
+        "EMPTY"
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/raku-community-modules/Email-Notmuch",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:raku-community-modules/Email::Notmuch?v=0.7",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/raku-community-modules/Email-Notmuch/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/GPL-3.0.json",
+      "type": "license"
+    },
+    {
+      "url": "https://github.com/raku-community-modules/Email-Notmuch/archive/refs/tags/0.7.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/File::Temp",
+      "dependsOn": [
+        "pkg:raku/zef:raku-community-modules/File::Directory::Tree?vers=vers:raku/%3E=0.2"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T22:21:41+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "BradClawsie",
+        "name": "Brad Clawsie"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:b7j0c/Subsets::Common@0.0.5",
+      "authors": [
+        {
+          "bom-ref": "BradClawsie",
+          "name": "Brad Clawsie"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:b7j0c",
+      "name": "Subsets::Common",
+      "version": "0.0.5",
+      "description": "Some common subsets to built-in types.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "944efdd413f40d7477b75c058764a382"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "beb4fc54804ea35cefb6ea945e11b253a6ae689a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "fef09580da4ebd6a99bb381c960d7a2e497ed9333f01f1994f27fed2150c2bdc"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "026370671595b12cbcd255a8e16edffef4c77a60b171aa8aea554414c566ee20250e40ef5bcd0e102aa3826232506220"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1ffbefd0cfa343fe00fceaf90c9213d5cd26a8545f6ed5789e2476f1e28fc8876c5f6d2cb48d766c5340e1069b5b5a77cbd94f53db82839f77ea3a87e4f7a153"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/BSD-2-Clause.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:b7j0c/Subsets::Common@0.0.5",
+      "externalReferences": [
+        {
+          "url": "https://github.com/bradclawsie/Subsets-Common",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:b7j0c/Subsets::Common?v=0.0.5",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/bradclawsie/Subsets-Common/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/BSD-2-Clause.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/bradclawsie/Subsets-Common/archive/refs/tags/0.0.5.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "BSD-2-Clause",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/BSD-2-Clause.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/bradclawsie/Subsets-Common",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:b7j0c/Subsets::Common?v=0.0.5",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/bradclawsie/Subsets-Common/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/BSD-2-Clause.json",
+      "type": "license"
+    },
+    {
+      "url": "https://github.com/bradclawsie/Subsets-Common/archive/refs/tags/0.0.5.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

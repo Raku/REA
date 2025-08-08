@@ -1,0 +1,481 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T22:31:57+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "AntonAntonov",
+        "name": "Anton Antonov"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:antononcube/WWW::MistralAI@0.1.2:1",
+      "authors": [
+        {
+          "bom-ref": "AntonAntonov",
+          "name": "Anton Antonov"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:antononcube",
+      "name": "WWW::MistralAI",
+      "version": "0.1.2",
+      "description": "WWW::MistralAI provides access to the MistralAI playground (https://mistral.ai).",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "cb1b94b97bc5ba77fa5c8bd190a87283"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6f593932b2cd9df1b694ac6699cdf2ea62343f02"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f90e7114ba70a31519ec64a4e8787dac8f0c0551a111eb07a29d9d0466b6e5f0"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "04f2df7a88e010905e87b23bd30302e13267241abeffd1639b6c2c8e346ee9ba132cdda87f36cfdb500519237fdd9e9e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7e6ae17f8e70ab8a178ee4fdc409869a1621ffb797249729e12abe0878eec2aa70941fbbec3c5baed3b5b1ed4be88786ad7cf8605b0f6d623e2c14fb8ef6df21"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:antononcube/WWW::MistralAI@0.1.2:1",
+      "externalReferences": [
+        {
+          "url": "https://github.com/antononcube/Raku-WWW-MistralAI",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:antononcube/WWW::MistralAI?v=0.1.2",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/antononcube/Raku-WWW-MistralAI/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/antononcube/Raku-WWW-MistralAI/archive/refs/tags/0.1.2.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "ai",
+        "api",
+        "art",
+        "embeddings",
+        "generative art",
+        "generative",
+        "large language model",
+        "llm",
+        "mistral ai",
+        "mistral.ai",
+        "mistralai",
+        "web service",
+        "web"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "Artistic-2.0",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/Artistic-2.0.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/IO::Socket::SSL?vers=vers:raku/%3E=0.0.2",
+      "authors": [
+        {
+          "bom-ref": "FilipSergot",
+          "name": "Filip Sergot"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:raku-community-modules",
+      "name": "IO::Socket::SSL",
+      "version": "0.0.4",
+      "description": "IO::Socket::SSL for Raku using OpenSSL",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/MIT.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:raku-community-modules/IO::Socket::SSL@0.0.4",
+      "externalReferences": [
+        {
+          "url": "https://github.com/raku-community-modules/IO-Socket-SSL",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:raku-community-modules/IO::Socket::SSL?v=0.0.4",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/raku-community-modules/IO-Socket-SSL/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/MIT.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/raku-community-modules/IO-Socket-SSL/archive/refs/tags/0.0.4.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "SSL",
+        "Sockets"
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/JSON::Fast?vers=vers:raku/%3E=0.17",
+      "authors": [
+        {
+          "bom-ref": "TimoPaulssen",
+          "name": "Timo Paulssen"
+        },
+        {
+          "bom-ref": "TonyODell",
+          "name": "Tony O'Dell"
+        },
+        {
+          "bom-ref": "WenzelPPPeppmeyer",
+          "name": "Wenzel P. P. Peppmeyer"
+        },
+        {
+          "bom-ref": "ElizabethMattijsen",
+          "name": "Elizabeth Mattijsen"
+        }
+      ],
+      "publisher": "cpan",
+      "group": "cpan:TIMOTIMO",
+      "name": "JSON::Fast",
+      "version": "0.19",
+      "description": "A naive, fast json parser and serializer; drop-in replacement for JSON::Tiny",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/cpan:TIMOTIMO/JSON::Fast@0.19",
+      "externalReferences": [
+        {
+          "url": "git://github.com/timo/json_fast",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/cpan:TIMOTIMO/JSON::Fast?v=0.19",
+          "type": "documentation"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:raku-community-modules/OpenSSL?vers=vers:raku/%3E=0.2.4",
+      "authors": [
+        {
+          "bom-ref": "FilipSergot",
+          "name": "Filip Sergot"
+        },
+        {
+          "bom-ref": "ElizabethMattijsenlizrakurocks",
+          "name": "Elizabeth Mattijsen",
+          "email": "liz@raku.rocks"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:raku-community-modules",
+      "name": "OpenSSL",
+      "version": "0.2.5",
+      "description": "OpenSSL bindings",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/MIT.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:raku-community-modules/OpenSSL@0.2.5",
+      "externalReferences": [
+        {
+          "url": "https://github.com/raku-community-modules/OpenSSL",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:raku-community-modules/OpenSSL?v=0.2.5",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/raku-community-modules/OpenSSL/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/MIT.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/raku-community-modules/OpenSSL/archive/refs/tags/0.2.5.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "OPENSSL",
+        "MD5",
+        "SHA1",
+        "SHA224",
+        "SHA256",
+        "SHA384",
+        "SHA256"
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/antononcube/Raku-WWW-MistralAI",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:antononcube/WWW::MistralAI?v=0.1.2",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/antononcube/Raku-WWW-MistralAI/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/Artistic-2.0.json",
+      "type": "license"
+    },
+    {
+      "url": "https://github.com/antononcube/Raku-WWW-MistralAI/archive/refs/tags/0.1.2.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/IO::Socket::SSL?vers=vers:raku/%3E=0.0.2",
+      "dependsOn": [
+        "pkg:raku/zef:raku-community-modules/OpenSSL?vers=vers:raku/%3E=0.2.4"
+      ]
+    },
+    {
+      "ref": "pkg:raku/JSON::Fast?vers=vers:raku/%3E=0.17"
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

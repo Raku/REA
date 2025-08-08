@@ -1,0 +1,443 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T19:27:17+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "TomBrowder",
+        "name": "Tom Browder"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:tbrowder/App::Gitstatus@0.0.2",
+      "authors": [
+        {
+          "bom-ref": "TomBrowder",
+          "name": "Tom Browder"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:tbrowder",
+      "name": "App::Gitstatus",
+      "version": "0.0.2",
+      "description": "Provides a program, 'git-status-check', to help maintain a directory of Git repositories",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1282a62eaa94794b5282c997f8e8c2f7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "02a95b0dc52217bde4b7975b5bc4d98602e0391b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "cb5ffbc988ad93893fdc004f193c3b653705ff99117b5de54e71634d11c5b993"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "aa1dd844781179abc17ac8a003f4b2090e88cf1fb35ddc1bbbd803b4d3c98cc29f44abbb47a0fe76c31b56177c870f7a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "662d08e006e6d1782b118ea23e1f0151b7a11d7d014e3fbdeb2cc15ddef8d483400b1aa0ad694b26671d50fe341abbfed6f694ed02a0da2a23bed1f736331dd1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:tbrowder/App::Gitstatus@0.0.2",
+      "externalReferences": [
+        {
+          "url": "https://github.com/tbrowder/App-Gitstatus",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:tbrowder/App::Gitstatus?v=0.0.2",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/tbrowder/App-Gitstatus/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/tbrowder/App-Gitstatus/archive/refs/tags/0.0.2.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "Artistic-2.0",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/Artistic-2.0.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/File::Find",
+      "authors": [
+        {
+          "bom-ref": "TadeuszSośnierz",
+          "name": "Tadeusz Sośnierz"
+        },
+        {
+          "bom-ref": "DagurValbergJohansson",
+          "name": "Dagur Valberg Johansson"
+        },
+        {
+          "bom-ref": "ElizabethMattijsen",
+          "name": "Elizabeth Mattijsen"
+        },
+        {
+          "bom-ref": "FilipSergot",
+          "name": "Filip Sergot"
+        },
+        {
+          "bom-ref": "GlitchMr",
+          "name": "GlitchMr"
+        },
+        {
+          "bom-ref": "Heather",
+          "name": "Heather"
+        },
+        {
+          "bom-ref": "isleofmax",
+          "name": "isleofmax"
+        },
+        {
+          "bom-ref": "MoritzLenz",
+          "name": "Moritz Lenz"
+        },
+        {
+          "bom-ref": "PaulCochrane",
+          "name": "Paul Cochrane"
+        },
+        {
+          "bom-ref": "SteveMynott",
+          "name": "Steve Mynott"
+        },
+        {
+          "bom-ref": "TimoPaulssen",
+          "name": "Timo Paulssen"
+        },
+        {
+          "bom-ref": "TobiasLeich",
+          "name": "Tobias Leich"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:raku-community-modules",
+      "name": "File::Find",
+      "version": "0.2.2",
+      "description": "Get a lazy sequence of a directory tree",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/MIT.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:raku-community-modules/File::Find@0.2.2",
+      "externalReferences": [
+        {
+          "url": "git://github.com/raku-community-modules/File-Find",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:raku-community-modules/File::Find?v=0.2.2",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/raku-community-moduled/File-Find/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/MIT.json",
+          "type": "license"
+        },
+        {
+          "url": "mailto:community@raku.org",
+          "type": "support"
+        }
+      ],
+      "tags": [
+        "FILE",
+        "FIND"
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/Git::Status",
+      "authors": [
+        {
+          "bom-ref": "ElizabethMattijsen",
+          "name": "Elizabeth Mattijsen"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:lizmat",
+      "name": "Git::Status",
+      "version": "0.0.4",
+      "description": "obtain status of a git repository",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:lizmat/Git::Status@0.0.4",
+      "externalReferences": [
+        {
+          "url": "https://github.com/lizmat/Git-Status",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:lizmat/Git::Status?v=0.0.4",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/lizmat/Git-Status/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/lizmat/Git-Status/archive/refs/tags/0.0.4.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "GIT"
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/tbrowder/App-Gitstatus",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:tbrowder/App::Gitstatus?v=0.0.2",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/tbrowder/App-Gitstatus/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/Artistic-2.0.json",
+      "type": "license"
+    },
+    {
+      "url": "https://github.com/tbrowder/App-Gitstatus/archive/refs/tags/0.0.2.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/File::Find"
+    },
+    {
+      "ref": "pkg:raku/Git::Status"
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

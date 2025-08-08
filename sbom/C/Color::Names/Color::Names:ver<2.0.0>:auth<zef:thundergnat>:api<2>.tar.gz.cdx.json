@@ -1,0 +1,298 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T19:36:14+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "MarkusholliHolzer",
+        "name": "Markus 'holli' Holzer"
+      },
+      {
+        "bom-ref": "StephenSchulzethundergnat",
+        "name": "Stephen Schulze (thundergnat)"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:thundergnat/Color::Names@2.0.0:2",
+      "authors": [
+        {
+          "bom-ref": "MarkusholliHolzer",
+          "name": "Markus 'holli' Holzer"
+        },
+        {
+          "bom-ref": "StephenSchulzethundergnat",
+          "name": "Stephen Schulze (thundergnat)"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:thundergnat",
+      "name": "Color::Names",
+      "version": "2.0.0",
+      "description": "A fairly comprehensive collection of lists of named colors.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a9bbfbb6d64acb07f873ba574bb45898"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f864891a34874558f3233c6d48346d31b06d8262"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "aa9b8e98d98164185a10bcedff4c0001e390cade64304e809fb03242b233bb85"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f2f2981df4850dd8eeb0300947d32716a3bc051f451f4e47be46ddab9a73204018bfd1f0c0bffdd85ac090ef725547af"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "202738fb720c2a0d19c1e102c6a5183c0e6ba32824f3233b5b90a8c62c2e30d044a265dd22f82215453bae5dc177c436f9176cbaa5acd91c4039a58e0d3e5fd0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/BSD-2-Clause.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:thundergnat/Color::Names@2.0.0:2",
+      "externalReferences": [
+        {
+          "url": "git://github.com/thundergnat/Color-Names",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:thundergnat/Color::Names?v=2.0.0",
+          "type": "documentation"
+        },
+        {
+          "url": "https://spdx.org/licenses/BSD-2-Clause.json",
+          "type": "license"
+        }
+      ],
+      "tags": [
+        "CSS3",
+        "CSS",
+        "XKCD",
+        "X11",
+        "X11-Grey",
+        "Crayola",
+        "Resene",
+        "NCS",
+        "NBS",
+        "RAL-CL",
+        "RAL-DSP",
+        "FS595B",
+        "FS595C",
+        "Color",
+        "Colour",
+        "Names"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "BSD-2-Clause",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/BSD-2-Clause.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "git://github.com/thundergnat/Color-Names",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:thundergnat/Color::Names?v=2.0.0",
+      "type": "documentation"
+    },
+    {
+      "url": "https://spdx.org/licenses/BSD-2-Clause.json",
+      "type": "license"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

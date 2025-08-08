@@ -1,0 +1,347 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T21:38:10+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "DavidWarring",
+        "name": "David Warring"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:dwarring/PDF::Content@0.8.14",
+      "authors": [
+        {
+          "bom-ref": "DavidWarring",
+          "name": "David Warring"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:dwarring",
+      "name": "PDF::Content",
+      "version": "0.8.14",
+      "description": "PDF content related classes; including text, images, fonts and graphics",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "02ff00df388bdb7c4ed615ffbf0f4433"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "bf06f4c5fe7b0f7c104bf0bfef87aaa3153b8be5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "debd35ab20fb2a50d07c3b8942135c0541f3fdcfed1f657898b1fda6327b570c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "bc4263a5a5e81b3f5e0ccde6162d3cf93252e8448d89e339014b9f1ab5798d125e17c5cb9dff9acc9b4366ccceb9a583"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1f78f73ebd0399687b62b75bcf01347b6ff362ed22957282bf6f535d5fa403219b8905a1b4404968e6aef91da48637b15a6e6758780a6e72e0e1a27e41e93bf2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:dwarring/PDF::Content@0.8.14",
+      "externalReferences": [
+        {
+          "url": "https://github.com/pdf-raku/PDF-Content-raku",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:dwarring/PDF::Content?v=0.8.14",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/pdf-raku/PDF-Content-raku/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/pdf-raku/PDF-Content-raku/archive/refs/tags/0.8.14.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "pdf"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "Artistic-2.0",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/Artistic-2.0.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/JSON::Fast",
+      "authors": [
+        {
+          "bom-ref": "TimoPaulssen",
+          "name": "Timo Paulssen"
+        },
+        {
+          "bom-ref": "TonyODell",
+          "name": "Tony O'Dell"
+        },
+        {
+          "bom-ref": "WenzelPPPeppmeyer",
+          "name": "Wenzel P. P. Peppmeyer"
+        },
+        {
+          "bom-ref": "ElizabethMattijsen",
+          "name": "Elizabeth Mattijsen"
+        }
+      ],
+      "publisher": "cpan",
+      "group": "cpan:TIMOTIMO",
+      "name": "JSON::Fast",
+      "version": "0.19",
+      "description": "A naive, fast json parser and serializer; drop-in replacement for JSON::Tiny",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/cpan:TIMOTIMO/JSON::Fast@0.19",
+      "externalReferences": [
+        {
+          "url": "git://github.com/timo/json_fast",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/cpan:TIMOTIMO/JSON::Fast?v=0.19",
+          "type": "documentation"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/pdf-raku/PDF-Content-raku",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:dwarring/PDF::Content?v=0.8.14",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/pdf-raku/PDF-Content-raku/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/Artistic-2.0.json",
+      "type": "license"
+    },
+    {
+      "url": "https://github.com/pdf-raku/PDF-Content-raku/archive/refs/tags/0.8.14.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/JSON::Fast"
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

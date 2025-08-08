@@ -1,0 +1,301 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T22:28:40+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "carbin",
+        "name": "carbin"
+      },
+      {
+        "bom-ref": "jonathanstowe",
+        "name": "jonathanstowe"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:jonathanstowe/UNIX::Privileges@0.1.6:1.0",
+      "authors": [
+        {
+          "bom-ref": "carbin",
+          "name": "carbin"
+        },
+        {
+          "bom-ref": "jonathanstowe",
+          "name": "jonathanstowe"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:jonathanstowe",
+      "name": "UNIX::Privileges",
+      "version": "0.1.6",
+      "description": "A module for handling UNIX Privileges",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "4bf4971a80623b3d595c87965778e588"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "39b2835d841d2ff88f0da7afa82d42aa45835e09"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c917d49cc68f868613efe0cf8b4979925083cb697ba74823ba1befb6ba998699"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "31087ef3ff1c1db044382d31bee089d996af6f7f9e45048d2bced2c082676a9da0e3fbb588a0ef6bb9c87bfe59f99299"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "72cc9880b6f8e6c4a2a2a13bfa513e96a276759eb1a1c2f36c63e5d0e24ae89b46da265f77df24caf8901a7af6488103fe2e2ab25fb36e12fc4796ce07641f18"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/ISC.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:jonathanstowe/UNIX::Privileges@0.1.6:1.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/jonathanstowe/raku-unix-privileges",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:jonathanstowe/UNIX::Privileges?v=0.1.6",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/jonathanstowe/p6-unix-privileges/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/ISC.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/jonathanstowe/raku-unix-privileges/archive/refs/tags/0.1.6.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "unix",
+        "privileges",
+        "daemon"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "ISC",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/ISC.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/jonathanstowe/raku-unix-privileges",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:jonathanstowe/UNIX::Privileges?v=0.1.6",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/jonathanstowe/p6-unix-privileges/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/ISC.json",
+      "type": "license"
+    },
+    {
+      "url": "https://github.com/jonathanstowe/raku-unix-privileges/archive/refs/tags/0.1.6.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

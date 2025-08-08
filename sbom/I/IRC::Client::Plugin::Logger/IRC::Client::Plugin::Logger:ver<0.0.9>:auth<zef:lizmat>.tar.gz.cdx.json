@@ -1,0 +1,471 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T20:15:47+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "ElizabethMattijsen",
+        "name": "Elizabeth Mattijsen"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:lizmat/IRC::Client::Plugin::Logger@0.0.9",
+      "authors": [
+        {
+          "bom-ref": "ElizabethMattijsen",
+          "name": "Elizabeth Mattijsen"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:lizmat",
+      "name": "IRC::Client::Plugin::Logger",
+      "version": "0.0.9",
+      "description": "IRC logger for historic purposes",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "2d8dfde1452a02b28268266b1d01c50b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ab42becae5a48301bbb28daa8c767b84e4205dcb"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "049cab55032dcc519f70b01e7f26e47ffebc7b34f5a66eff743d356022b1cfdb"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "c9957006ff9c763278f2c31d8db3151267d4dff2da5736c4a3b6613632454969e450cbfa949dbfc9e209b4b3a102a471"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4c87abee16899fbeebd08078e7ff1b96648e1111d4ef1876d2478e9271688c05b0688d7940cc3a384658efc41305ac760012ed4b59572a01bcbd952bcb47251d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:lizmat/IRC::Client::Plugin::Logger@0.0.9",
+      "externalReferences": [
+        {
+          "url": "https://github.com/lizmat/IRC-Client-Plugin-Logger",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:lizmat/IRC::Client::Plugin::Logger?v=0.0.9",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/lizmat/IRC-Client-Plugin-Logger/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/lizmat/IRC-Client-Plugin-Logger/archive/refs/tags/0.0.9.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "Artistic-2.0",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/Artistic-2.0.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/IO::Socket::Async::SSL?vers=vers:raku/%3E=0.8.0",
+      "authors": [
+        {
+          "bom-ref": "JonathanWorthington",
+          "name": "Jonathan Worthington"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:raku-community-modules",
+      "name": "IO::Socket::Async::SSL",
+      "version": "0.8.2",
+      "description": "Provides an API like IO::Socket::Async, but with TLS support",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:raku-community-modules/IO::Socket::Async::SSL@0.8.2",
+      "externalReferences": [
+        {
+          "url": "https://github.com/raku-community-modules/IO-Socket-Async-SSL",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:raku-community-modules/IO::Socket::Async::SSL?v=0.8.2",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/raku-community-modules/IO-Socket-Async-SSL/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/raku-community-modules/IO-Socket-Async-SSL/archive/refs/tags/0.8.2.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "SSL",
+        "TLS",
+        "Asynchronous",
+        "Socket"
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/OpenSSL",
+      "authors": [
+        {
+          "bom-ref": "FilipSergot",
+          "name": "Filip Sergot"
+        },
+        {
+          "bom-ref": "ElizabethMattijsenlizrakurocks",
+          "name": "Elizabeth Mattijsen",
+          "email": "liz@raku.rocks"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:raku-community-modules",
+      "name": "OpenSSL",
+      "version": "0.2.5",
+      "description": "OpenSSL bindings",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/MIT.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:raku-community-modules/OpenSSL@0.2.5",
+      "externalReferences": [
+        {
+          "url": "https://github.com/raku-community-modules/OpenSSL",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:raku-community-modules/OpenSSL?v=0.2.5",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/raku-community-modules/OpenSSL/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/MIT.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/raku-community-modules/OpenSSL/archive/refs/tags/0.2.5.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "OPENSSL",
+        "MD5",
+        "SHA1",
+        "SHA224",
+        "SHA256",
+        "SHA384",
+        "SHA256"
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:lizmat/IRC::Client@4.0.6",
+      "authors": [
+        {
+          "bom-ref": "ElizabethMattijsen",
+          "name": "Elizabeth Mattijsen"
+        },
+        {
+          "bom-ref": "ZoffixZnet",
+          "name": "Zoffix Znet"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:lizmat",
+      "name": "IRC::Client",
+      "version": "4.0.14",
+      "description": "Extendable Internet Relay Chat client",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:lizmat/IRC::Client@4.0.14",
+      "externalReferences": [
+        {
+          "url": "https://github.com/lizmat/IRC-Client",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:lizmat/IRC::Client?v=4.0.14",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/lizmat/IRC-Client/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/lizmat/IRC-Client/archive/refs/tags/4.0.14.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "NET",
+        "IRC",
+        "CLIENT"
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/lizmat/IRC-Client-Plugin-Logger",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:lizmat/IRC::Client::Plugin::Logger?v=0.0.9",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/lizmat/IRC-Client-Plugin-Logger/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/Artistic-2.0.json",
+      "type": "license"
+    },
+    {
+      "url": "https://github.com/lizmat/IRC-Client-Plugin-Logger/archive/refs/tags/0.0.9.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/IRC::Client@4.0.6",
+      "dependsOn": [
+        "pkg:raku/IO::Socket::Async::SSL?vers=vers:raku/%3E=0.8.0",
+        "pkg:raku/OpenSSL"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

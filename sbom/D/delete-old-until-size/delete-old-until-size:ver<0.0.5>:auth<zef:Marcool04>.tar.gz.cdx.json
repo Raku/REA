@@ -1,0 +1,351 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T19:46:56+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "MarkCollins",
+        "name": "Mark Collins"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:Marcool04/delete-old-until-size@0.0.5",
+      "authors": [
+        {
+          "bom-ref": "MarkCollins",
+          "name": "Mark Collins"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:Marcool04",
+      "name": "delete-old-until-size",
+      "version": "0.0.5",
+      "description": "Delete (old) files from a folder (until size is less than a threshold).",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "be87e1171a39863ed0a58d97333373eb"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4bd9688c37a8f53ba83bcee84ae1e746bc8a63fc"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1b3638b022372b68eba2add5e157822b2d77bc20a76365dae161f240f03fbb70"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e02b466bdbbdac509f2b22ac33378f4d9e9ec08fab00729aa0ed58b998c9b7931531b7a93b3536ee8c08f5b3c0f2e25c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "855d911621f89fe60178f60fe30deac6658639b57560acd566ac7ed73c2c4928f429c433c02b2381f090f3b4537ea98ff899c8b0d6713671a785d5bd0bc1366e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "WTFPL",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/WTFPL.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:Marcool04/delete-old-until-size@0.0.5",
+      "externalReferences": [
+        {
+          "url": "https://gitlab.com/Marcool04/raku-delete-old-until-size",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:Marcool04/delete-old-until-size?v=0.0.5",
+          "type": "documentation"
+        },
+        {
+          "url": "https://gitlab.com/Marcool04/raku-delete-old-until-size/-/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/WTFPL.json",
+          "type": "license"
+        }
+      ],
+      "tags": [
+        "Delete",
+        "Size",
+        "Folder",
+        "Old"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "WTFPL",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/WTFPL.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/File::Directory::Tree",
+      "authors": [
+        {
+          "bom-ref": "BrentLaabs",
+          "name": "Brent Laabs"
+        },
+        {
+          "bom-ref": "PaulCochrane",
+          "name": "Paul Cochrane"
+        },
+        {
+          "bom-ref": "ZoffixZnet",
+          "name": "Zoffix Znet"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:raku-community-modules",
+      "name": "File::Directory::Tree",
+      "version": "0.2",
+      "description": "Create, delete and empty directories",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:raku-community-modules/File::Directory::Tree@0.2",
+      "externalReferences": [
+        {
+          "url": "https://github.com/raku-community-modules/File-Directory-Tree",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:raku-community-modules/File::Directory::Tree?v=0.2",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/raku-community-modules/File-Directory-Tree/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/raku-community-modules/File-Directory-Tree/archive/refs/tags/0.2.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "MKTREE",
+        "RMTREE",
+        "EMPTY"
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://gitlab.com/Marcool04/raku-delete-old-until-size",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:Marcool04/delete-old-until-size?v=0.0.5",
+      "type": "documentation"
+    },
+    {
+      "url": "https://gitlab.com/Marcool04/raku-delete-old-until-size/-/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/WTFPL.json",
+      "type": "license"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/File::Directory::Tree"
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

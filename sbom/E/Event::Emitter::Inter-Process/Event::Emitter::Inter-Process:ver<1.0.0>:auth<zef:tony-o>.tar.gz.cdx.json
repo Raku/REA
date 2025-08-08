@@ -1,0 +1,254 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T19:51:46+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "TonyODell",
+        "name": "Tony O'Dell"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:tony-o/Event::Emitter::Inter-Process@1.0.0",
+      "authors": [
+        {
+          "bom-ref": "TonyODell",
+          "name": "Tony O'Dell"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:tony-o",
+      "name": "Event::Emitter::Inter-Process",
+      "version": "1.0.0",
+      "description": "Inter-process event emitter for Event::Emitter.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "4f88509c9fe0536ac4cbc8d62491d023"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1b889ebc041f82beb3fea6f019d527b51154cb17"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6039013dced3b6802ecc35ee6b6ff26cdf885e0966f7878cf0374b104b064a47"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "7dd67d84e9f65659e72097dad1352a293fad60eab7717beb18b784b383319449bd06be223b21f0891c7ec9ce3dc05558"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7121c5e9f5006cf467fb9fdca378c4897b679f1b56474228c2a4ae397bb4e4bafcb89510558ab0d8c5dc35a297e8e7ca814a44e0a237e30d784263e257c60f1c"
+        }
+      ],
+      "purl": "pkg:raku/zef:tony-o/Event::Emitter::Inter-Process@1.0.0",
+      "externalReferences": [
+        {
+          "url": "git://github.com/tony-o/perl6-event-emitter-interprocess",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:tony-o/Event::Emitter::Inter-Process?v=1.0.0",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/tony-o/perl6-event-emitter-interprocess/issues",
+          "type": "issue-tracker"
+        }
+      ]
+    },
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "git://github.com/tony-o/perl6-event-emitter-interprocess",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:tony-o/Event::Emitter::Inter-Process?v=1.0.0",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/tony-o/perl6-event-emitter-interprocess/issues",
+      "type": "issue-tracker"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T20:50:54+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "MarkCollins",
+        "name": "Mark Collins"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:Marcool04/Mac::Battery::Alerter@0.0.4",
+      "authors": [
+        {
+          "bom-ref": "MarkCollins",
+          "name": "Mark Collins"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:Marcool04",
+      "name": "Mac::Battery::Alerter",
+      "version": "0.0.4",
+      "description": "Raku script to alert with speech in case of low battery on macOS",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "d0c9cd34abbfac9fe584ef81683f59a8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "86256047131e9d6b1d198348752f7bc6a9a067be"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4fd5a9bdc1b758958e785949f78a1d059e42dc75da422aa0f88924928d41a639"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4d86acf982b83c151c66115e5397bfb63d36d18f3ed99e19f0d1c31d4497c58fb3c70f2d7585034d6a8f4e9b538bf015"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "cf4a8370480cba7a4e847565a8e8616f2979da2618bf6e46b19e358b36a9ad970c894eeca153e8e8afaf03b193fc2033f68ba01c36dbee65cf8c6d8fc14e12db"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "WTFPL",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/WTFPL.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:Marcool04/Mac::Battery::Alerter@0.0.4",
+      "externalReferences": [
+        {
+          "url": "https://gitlab.com/Marcool04/raku-mac-battery-alerter",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:Marcool04/Mac::Battery::Alerter?v=0.0.4",
+          "type": "documentation"
+        },
+        {
+          "url": "https://gitlab.com/Marcool04/raku-mac-battery-alerter/-/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/WTFPL.json",
+          "type": "license"
+        }
+      ],
+      "tags": [
+        "macos",
+        "mac",
+        "battery",
+        "alerter"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "WTFPL",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/WTFPL.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://gitlab.com/Marcool04/raku-mac-battery-alerter",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:Marcool04/Mac::Battery::Alerter?v=0.0.4",
+      "type": "documentation"
+    },
+    {
+      "url": "https://gitlab.com/Marcool04/raku-mac-battery-alerter/-/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/WTFPL.json",
+      "type": "license"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

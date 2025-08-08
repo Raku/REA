@@ -1,0 +1,294 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T19:56:17+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "Andinusandinusnandsh",
+        "name": "Andinus",
+        "email": "andinus@nand.sh"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:andinus/fornax@0.1.0",
+      "authors": [
+        {
+          "bom-ref": "Andinusandinusnandsh",
+          "name": "Andinus",
+          "email": "andinus@nand.sh"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:andinus",
+      "name": "fornax",
+      "version": "0.1.0",
+      "description": "Collection of tools to visualize Path Finding Algorithms",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "37b3bc779fdd30803a2b260feb968d6e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "14eabbb8f2160b6a82cf97ae9b9a12bd58a56170"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6517c124458be4711b5df60475782832040153dc989373770bad9065fc41d76a"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e6777362660c66d95acae64bdb59a911d211f76b110f98afb6a6f9c485bcbf68cb624cfac8681b788f694e65835816fc"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "24635bfea66e0011614f939ce36a9acbda812a7501234e7fb21bf29b82a037702f39896cf84cb90525d357c9cfde0a408a010fa354e05c4db44a78cb76916363"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/ISC.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:andinus/fornax@0.1.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/andinus/fornax",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:andinus/fornax?v=0.1.0",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/andinus/fornax/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/ISC.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/andinus/fornax/archive/refs/tags/0.1.0.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "Fornax",
+        "Algorithms"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "ISC",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/ISC.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/andinus/fornax",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:andinus/fornax?v=0.1.0",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/andinus/fornax/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/ISC.json",
+      "type": "license"
+    },
+    {
+      "url": "https://github.com/andinus/fornax/archive/refs/tags/0.1.0.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

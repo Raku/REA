@@ -1,0 +1,280 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T19:38:41+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "Andinusandinusnandsh",
+        "name": "Andinus",
+        "email": "andinus@nand.sh"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:andinus/caelum@0.1.1",
+      "authors": [
+        {
+          "bom-ref": "Andinusandinusnandsh",
+          "name": "Andinus",
+          "email": "andinus@nand.sh"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:andinus",
+      "name": "caelum",
+      "version": "0.1.1",
+      "description": "Caelum is a text based Cee-lo game",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "0c5c5d86f58d0bef16e2a1d840168c58"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1ea366eebb95fa0548a5a1abec071e72d56bb22a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8861ec790ff2f57b65574126ca0391d876343c29721cee2a0ca74b64b546fae0"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "1a86b870048b9ba72f3d38e60af58afb3919d135146b8677e6542080041bb5b82052757e4ee8142ddec5da9cdccf86fd"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "82ae791ef1a7a67d620da4c31e8a5ca6b3fc4ca6be8e2d1cfed3f8f45bba416be6df875c040efcb17208a23e7e0bb631b27655c0321c2e3fafbdcb4786132260"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/ISC.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:andinus/caelum@0.1.1",
+      "externalReferences": [
+        {
+          "url": "https://git.tilde.institute/andinus/caelum",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:andinus/caelum?v=0.1.1",
+          "type": "documentation"
+        },
+        {
+          "url": "https://spdx.org/licenses/ISC.json",
+          "type": "license"
+        }
+      ],
+      "tags": [
+        "Caelum",
+        "Cee-lo",
+        "Chinchirorin",
+        "Chinchiro"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "ISC",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/ISC.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://git.tilde.institute/andinus/caelum",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:andinus/caelum?v=0.1.1",
+      "type": "documentation"
+    },
+    {
+      "url": "https://spdx.org/licenses/ISC.json",
+      "type": "license"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

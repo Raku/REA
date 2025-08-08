@@ -1,0 +1,366 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T22:33:35+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "BradClawsie",
+        "name": "Brad Clawsie"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:bradclawsie/WebService::AWS::Auth::V4@0.0.5",
+      "authors": [
+        {
+          "bom-ref": "BradClawsie",
+          "name": "Brad Clawsie"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:bradclawsie",
+      "name": "WebService::AWS::Auth::V4",
+      "version": "0.0.5",
+      "description": "A library of routines to create AWS V4 authentication strings",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1e30de1b80a6e585ffa8c8c44530a998"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5b9e3b23322bbbf372a6cf1466b3ce7c1c755474"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "dc927e218f4b736b0bd2a55598cb52f1cf5a589a11419fa113504462adedde40"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "1962e319a8b59efd4e50e3d621dd944ec00f7a1a8a3004a2b8f093b2293cbd5a734ac10db049f4788cdd74203cd0f865"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5d8bc54476ed342cee065f29811f46fe922097a9a1a4fed18cd6adc8ae00f3f2f2d5ff415c9df2a9d245a509d46ac11a146abb3f90709f41cf0b34770cc9dc86"
+        }
+      ],
+      "purl": "pkg:raku/zef:bradclawsie/WebService::AWS::Auth::V4@0.0.5",
+      "externalReferences": [
+        {
+          "url": "https://github.com/bradclawsie/WebService-AWS-V4",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:bradclawsie/WebService::AWS::Auth::V4?v=0.0.5",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/bradclawsie/WebService-AWS-V4/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/bradclawsie/WebService-AWS-V4/archive/refs/tags/0.0.5.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/URI",
+      "authors": [
+        {
+          "bom-ref": "Rakucommunity",
+          "name": "Raku community"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:raku-community-modules",
+      "name": "URI",
+      "version": "0.3.8",
+      "description": "A URI implementation using Raku grammars to implement RFC 3986 BNF",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:raku-community-modules/URI@0.3.8",
+      "externalReferences": [
+        {
+          "url": "https://github.com/raku-community-modules/URI",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:raku-community-modules/URI?v=0.3.8",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/raku-community-modules/URI/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/raku-community-modules/URI/archive/refs/tags/0.3.8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/URI::Escape",
+      "authors": [
+        {
+          "bom-ref": "Rakucommunity",
+          "name": "Raku community"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:raku-community-modules",
+      "name": "URI",
+      "version": "0.3.8",
+      "description": "A URI implementation using Raku grammars to implement RFC 3986 BNF",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:raku-community-modules/URI@0.3.8",
+      "externalReferences": [
+        {
+          "url": "https://github.com/raku-community-modules/URI",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:raku-community-modules/URI?v=0.3.8",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/raku-community-modules/URI/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/raku-community-modules/URI/archive/refs/tags/0.3.8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/bradclawsie/WebService-AWS-V4",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:bradclawsie/WebService::AWS::Auth::V4?v=0.0.5",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/bradclawsie/WebService-AWS-V4/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://github.com/bradclawsie/WebService-AWS-V4/archive/refs/tags/0.0.5.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/URI"
+    },
+    {
+      "ref": "pkg:raku/URI::Escape"
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

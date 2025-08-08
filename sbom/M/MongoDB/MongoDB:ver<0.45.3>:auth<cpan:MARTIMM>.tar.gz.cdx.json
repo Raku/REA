@@ -1,0 +1,464 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T21:09:20+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "MarcelTimmerman",
+        "name": "Marcel Timmerman"
+      },
+      {
+        "bom-ref": "PawełPabian",
+        "name": "Paweł Pabian"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/cpan:MARTIMM/MongoDB@0.45.3",
+      "authors": [
+        {
+          "bom-ref": "MarcelTimmerman",
+          "name": "Marcel Timmerman"
+        },
+        {
+          "bom-ref": "PawełPabian",
+          "name": "Paweł Pabian"
+        }
+      ],
+      "publisher": "cpan",
+      "group": "cpan:MARTIMM",
+      "name": "MongoDB",
+      "version": "0.45.3",
+      "description": "MongoDB driver",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "836378cd08b00f350a9a51ab646d4642"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b31d2dff10a4f24fa7baaad709bcfaff35d3f2c9"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6a6bd139a5315dc07529463228c994f1152d8b0a9811ccb87d24ecd31c2d15d7"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "3fc3c784c730a05e3a279304235f0e96b8c80859e278863c3a5688bc2da076b20bd2f500b8c8f850ab88ad2c56f65165"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "26bd2d7c688f1bfbb72cbe1b114009b87f7d58187d11d467e5a2c49d8c396b247f90f5087e14088739e5b8bdffde668fb6862aab0c1b70d5bc80870681755327"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/cpan:MARTIMM/MongoDB@0.45.3",
+      "externalReferences": [
+        {
+          "url": "git://github.com/MARTIMM/raku-mongodb-driver",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/cpan:MARTIMM/MongoDB?v=0.45.3",
+          "type": "documentation"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        }
+      ],
+      "tags": [
+        "NoSQL",
+        "database",
+        "mongodb",
+        "driver"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "Artistic-2.0",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/Artistic-2.0.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/Net::DNS",
+      "authors": [
+        {
+          "bom-ref": "githubretupmoca",
+          "name": "github:retupmoca"
+        },
+        {
+          "bom-ref": "RodTaylorrakurbtca",
+          "name": "Rod Taylor",
+          "email": "raku@rbt.ca"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:rbt",
+      "name": "Net::DNS",
+      "version": "1.4",
+      "description": "Simple DNS Resolver",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/MIT.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:rbt/Net::DNS@1.4",
+      "externalReferences": [
+        {
+          "url": "https://github.com/retupmoca/P6-Net-DNS",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:rbt/Net::DNS?v=1.4",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/retupmoca/P6-Net-DNS/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/MIT.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/retupmoca/P6-Net-DNS/archive/refs/tags/1.4.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "Net",
+        "DNS"
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/OpenSSL",
+      "authors": [
+        {
+          "bom-ref": "FilipSergot",
+          "name": "Filip Sergot"
+        },
+        {
+          "bom-ref": "ElizabethMattijsenlizrakurocks",
+          "name": "Elizabeth Mattijsen",
+          "email": "liz@raku.rocks"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:raku-community-modules",
+      "name": "OpenSSL",
+      "version": "0.2.5",
+      "description": "OpenSSL bindings",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/MIT.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:raku-community-modules/OpenSSL@0.2.5",
+      "externalReferences": [
+        {
+          "url": "https://github.com/raku-community-modules/OpenSSL",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:raku-community-modules/OpenSSL?v=0.2.5",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/raku-community-modules/OpenSSL/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/MIT.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/raku-community-modules/OpenSSL/archive/refs/tags/0.2.5.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "OPENSSL",
+        "MD5",
+        "SHA1",
+        "SHA224",
+        "SHA256",
+        "SHA384",
+        "SHA256"
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/Terminal::ANSIColor",
+      "authors": [
+        {
+          "bom-ref": "TadeusztadzikSośnierz",
+          "name": "Tadeusz “tadzik” Sośnierz"
+        },
+        {
+          "bom-ref": "ElizabethMattijsen",
+          "name": "Elizabeth Mattijsen"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:raku-community-modules",
+      "name": "Terminal::ANSIColor",
+      "version": "0.13",
+      "description": "Color screen output using ANSI escape sequences",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/MIT.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:raku-community-modules/Terminal::ANSIColor@0.13",
+      "externalReferences": [
+        {
+          "url": "https://raku.land/zef:raku-community-modules/Terminal::ANSIColor?v=0.13",
+          "type": "documentation"
+        },
+        {
+          "url": "https://spdx.org/licenses/MIT.json",
+          "type": "license"
+        }
+      ],
+      "tags": [
+        "TERMINAL",
+        "TERM",
+        "COLOR",
+        "ANSI",
+        "ESCAPE"
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "git://github.com/MARTIMM/raku-mongodb-driver",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/cpan:MARTIMM/MongoDB?v=0.45.3",
+      "type": "documentation"
+    },
+    {
+      "url": "https://spdx.org/licenses/Artistic-2.0.json",
+      "type": "license"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/Net::DNS"
+    },
+    {
+      "ref": "pkg:raku/OpenSSL"
+    },
+    {
+      "ref": "pkg:raku/Terminal::ANSIColor"
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

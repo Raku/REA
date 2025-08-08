@@ -1,0 +1,695 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T22:23:47+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "GeoffreyBroadwell",
+        "name": "Geoffrey Broadwell"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:japhb/Terminal::Widgets@0.1.5",
+      "authors": [
+        {
+          "bom-ref": "GeoffreyBroadwell",
+          "name": "Geoffrey Broadwell"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:japhb",
+      "name": "Terminal::Widgets",
+      "version": "0.1.5",
+      "description": "Basic TUI Widgets",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "992175d93fc1ac1fa18e07a714182625"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e6bf0537fab777846c1d3a222dffe2b0dcf355b7"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "34c053c02cd3c8401caadfca92813d290c7cf5cb1d6ec5ff36cb5054278c64e0"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "50be248726e693a037f1bfe147c44398486fd7deee11bd778983200abf7f8a04459dd7324e2740ad23bd055965658424"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ce02fc038645c1ee97d8f9fc95f1a10b4089cd4c46a31f7f0926588963fcc0825a5d2c4b17b999bc08568c65b5de41eeff6839210367939930c90bef5c7a1c58"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:japhb/Terminal::Widgets@0.1.5",
+      "externalReferences": [
+        {
+          "url": "https://github.com/japhb/Terminal-Widgets",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:japhb/Terminal::Widgets?v=0.1.5",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/japhb/Terminal-Widgets/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/japhb/Terminal-Widgets/archive/refs/tags/0.1.5.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "Artistic-2.0",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/Artistic-2.0.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/Terminal::ANSIColor",
+      "authors": [
+        {
+          "bom-ref": "TadeusztadzikSośnierz",
+          "name": "Tadeusz “tadzik” Sośnierz"
+        },
+        {
+          "bom-ref": "ElizabethMattijsen",
+          "name": "Elizabeth Mattijsen"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:raku-community-modules",
+      "name": "Terminal::ANSIColor",
+      "version": "0.13",
+      "description": "Color screen output using ANSI escape sequences",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/MIT.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:raku-community-modules/Terminal::ANSIColor@0.13",
+      "externalReferences": [
+        {
+          "url": "https://raku.land/zef:raku-community-modules/Terminal::ANSIColor?v=0.13",
+          "type": "documentation"
+        },
+        {
+          "url": "https://spdx.org/licenses/MIT.json",
+          "type": "license"
+        }
+      ],
+      "tags": [
+        "TERMINAL",
+        "TERM",
+        "COLOR",
+        "ANSI",
+        "ESCAPE"
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:japhb/Terminal::ANSIParser?vers=vers:raku/%3E=0.0.3",
+      "authors": [
+        {
+          "bom-ref": "GeoffreyBroadwell",
+          "name": "Geoffrey Broadwell"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:japhb",
+      "name": "Terminal::ANSIParser",
+      "version": "0.0.4",
+      "description": "ANSI/VT stream parser",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:japhb/Terminal::ANSIParser@0.0.4",
+      "externalReferences": [
+        {
+          "url": "https://github.com/japhb/Terminal-ANSIParser",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:japhb/Terminal::ANSIParser?v=0.0.4",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/japhb/Terminal-ANSIParser/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/japhb/Terminal-ANSIParser/archive/refs/tags/0.0.4.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:japhb/Terminal::Capabilities?vers=vers:raku/%3E=0.0.1",
+      "authors": [
+        {
+          "bom-ref": "GeoffreyBroadwell",
+          "name": "Geoffrey Broadwell"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:japhb",
+      "name": "Terminal::Capabilities",
+      "version": "0.0.4",
+      "description": "Container for terminal capabilities, with useful defaults",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:japhb/Terminal::Capabilities@0.0.4",
+      "externalReferences": [
+        {
+          "url": "https://github.com/japhb/Terminal-Capabilities",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:japhb/Terminal::Capabilities?v=0.0.4",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/japhb/Terminal-Capabilities/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/japhb/Terminal-Capabilities/archive/refs/tags/0.0.4.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:japhb/Terminal::Capabilities?vers=vers:raku/%3E=0.0.3",
+      "authors": [
+        {
+          "bom-ref": "GeoffreyBroadwell",
+          "name": "Geoffrey Broadwell"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:japhb",
+      "name": "Terminal::Capabilities",
+      "version": "0.0.4",
+      "description": "Container for terminal capabilities, with useful defaults",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:japhb/Terminal::Capabilities@0.0.4",
+      "externalReferences": [
+        {
+          "url": "https://github.com/japhb/Terminal-Capabilities",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:japhb/Terminal::Capabilities?v=0.0.4",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/japhb/Terminal-Capabilities/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/japhb/Terminal-Capabilities/archive/refs/tags/0.0.4.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:japhb/Terminal::LineEditor?vers=vers:raku/%3E=0.0.16",
+      "authors": [
+        {
+          "bom-ref": "GeoffreyBroadwell",
+          "name": "Geoffrey Broadwell"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:japhb",
+      "name": "Terminal::LineEditor",
+      "version": "0.0.20",
+      "description": "Generalized terminal line editing",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:japhb/Terminal::LineEditor@0.0.20",
+      "externalReferences": [
+        {
+          "url": "https://github.com/japhb/Terminal-LineEditor",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:japhb/Terminal::LineEditor?v=0.0.20",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/japhb/Terminal-LineEditor/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/japhb/Terminal-LineEditor/archive/refs/tags/0.0.20.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:japhb/Text::MiscUtils?vers=vers:raku/%3E=0.0.8",
+      "authors": [
+        {
+          "bom-ref": "GeoffreyBroadwell",
+          "name": "Geoffrey Broadwell"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:japhb",
+      "name": "Text::MiscUtils",
+      "version": "0.0.9",
+      "description": "A bag of small text processing tricks",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:japhb/Text::MiscUtils@0.0.9",
+      "externalReferences": [
+        {
+          "url": "git://github.com/japhb/Text-MiscUtils",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:japhb/Text::MiscUtils?v=0.0.9",
+          "type": "documentation"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        }
+      ],
+      "tags": [
+        "Text",
+        "MiscUtils"
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:japhb/Text::MiscUtils?vers=vers:raku/%3E=0.0.9",
+      "authors": [
+        {
+          "bom-ref": "GeoffreyBroadwell",
+          "name": "Geoffrey Broadwell"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:japhb",
+      "name": "Text::MiscUtils",
+      "version": "0.0.9",
+      "description": "A bag of small text processing tricks",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:japhb/Text::MiscUtils@0.0.9",
+      "externalReferences": [
+        {
+          "url": "git://github.com/japhb/Text-MiscUtils",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:japhb/Text::MiscUtils?v=0.0.9",
+          "type": "documentation"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        }
+      ],
+      "tags": [
+        "Text",
+        "MiscUtils"
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:patrickb/Terminal::API?vers=vers:raku/%3E=1.0.3",
+      "authors": [
+        {
+          "bom-ref": "PatrickBökerpatrickboekerposteode",
+          "name": "Patrick Böker",
+          "email": "patrick.boeker@posteo.de"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:patrickb",
+      "name": "Terminal-API",
+      "version": "1.0.3",
+      "description": "Assorted functions to interact with TTYs",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:patrickb/Terminal-API@1.0.3",
+      "externalReferences": [
+        {
+          "url": "https://git.sr.ht/~patrickb/Terminal-API",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:patrickb/Terminal-API?v=1.0.3",
+          "type": "documentation"
+        },
+        {
+          "url": "https://todo.sr.ht/~patrickb/Terminal-API",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://lists.sr.ht/~patrickb/Terminal-API-devel",
+          "type": "mailing-list"
+        }
+      ],
+      "tags": [
+        "term",
+        "CLI"
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/japhb/Terminal-Widgets",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:japhb/Terminal::Widgets?v=0.1.5",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/japhb/Terminal-Widgets/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/Artistic-2.0.json",
+      "type": "license"
+    },
+    {
+      "url": "https://github.com/japhb/Terminal-Widgets/archive/refs/tags/0.1.5.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:japhb/Terminal::Capabilities?vers=vers:raku/%3E=0.0.3"
+    },
+    {
+      "ref": "pkg:raku/zef:japhb/Terminal::LineEditor?vers=vers:raku/%3E=0.0.16",
+      "dependsOn": [
+        "pkg:raku/Terminal::ANSIColor",
+        "pkg:raku/zef:japhb/Terminal::ANSIParser?vers=vers:raku/%3E=0.0.3",
+        "pkg:raku/zef:japhb/Terminal::Capabilities?vers=vers:raku/%3E=0.0.1",
+        "pkg:raku/zef:japhb/Text::MiscUtils?vers=vers:raku/%3E=0.0.8",
+        "pkg:raku/zef:patrickb/Terminal::API?vers=vers:raku/%3E=1.0.3"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:japhb/Text::MiscUtils?vers=vers:raku/%3E=0.0.9",
+      "dependsOn": [
+        "pkg:raku/Terminal::ANSIColor"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

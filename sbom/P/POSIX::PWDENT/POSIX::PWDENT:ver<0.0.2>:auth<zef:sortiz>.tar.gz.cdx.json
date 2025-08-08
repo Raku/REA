@@ -1,0 +1,280 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T21:48:16+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "SalvadorOrtizsortizcpanorg",
+        "name": "Salvador Ortiz",
+        "email": "sortiz@cpan.org"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:sortiz/POSIX::PWDENT@0.0.2",
+      "authors": [
+        {
+          "bom-ref": "SalvadorOrtizsortizcpanorg",
+          "name": "Salvador Ortiz",
+          "email": "sortiz@cpan.org"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:sortiz",
+      "name": "POSIX::PWDENT",
+      "version": "0.0.2",
+      "description": "Access to POSIX passwd and group DBs via dynamic vars",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "aa3737fba17cad24c6a3f62b4a0b23df"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "605563df1286c3b7d8d6154f4574a89354acdb0e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a42918b5961819d95cca5640b4f3522f1300cdaf1ed5ec63ae27b04a802c2091"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "d6f05cbd223e1c3e043ded80ae78c5ed7f8d32f8502ad02c9b573c5868d997c2aa26b87651f7d01891f7c0c830c5e279"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "13e5fb3badf7d254b3e7d3b5bdfde6c22f42c821844fb4b76be082d67f4bdeaaee3bec0a5bb28e472fe0eedef991fcd3480919ccdecd78359741c6d317acedae"
+        }
+      ],
+      "purl": "pkg:raku/zef:sortiz/POSIX::PWDENT@0.0.2",
+      "externalReferences": [
+        {
+          "url": "https://github.com/salortiz/POSIX-PWDENT",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:sortiz/POSIX::PWDENT?v=0.0.2",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/salortiz/POSIX-PWDENT/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/salortiz/POSIX-PWDENT/archive/refs/tags/0.0.2.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "mailto:sortiz@cpan.org",
+          "type": "support"
+        }
+      ],
+      "tags": [
+        "passwd",
+        "group",
+        "getpwent",
+        "getpwnam",
+        "getpwuid",
+        "getgrent"
+      ]
+    },
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/salortiz/POSIX-PWDENT",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:sortiz/POSIX::PWDENT?v=0.0.2",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/salortiz/POSIX-PWDENT/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://github.com/salortiz/POSIX-PWDENT/archive/refs/tags/0.0.2.zip",
+      "type": "source-distribution"
+    },
+    {
+      "url": "mailto:sortiz@cpan.org",
+      "type": "support"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

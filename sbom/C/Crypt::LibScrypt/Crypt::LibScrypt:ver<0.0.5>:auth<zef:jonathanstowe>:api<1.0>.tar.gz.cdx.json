@@ -1,0 +1,356 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T19:38:25+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "JonathanStowejnsghgellyfishcouk",
+        "name": "Jonathan Stowe <jns+gh@gellyfish.co.uk"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:jonathanstowe/Crypt::LibScrypt@0.0.5:1.0",
+      "authors": [
+        {
+          "bom-ref": "JonathanStowejnsghgellyfishcouk",
+          "name": "Jonathan Stowe <jns+gh@gellyfish.co.uk"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:jonathanstowe",
+      "name": "Crypt::LibScrypt",
+      "version": "0.0.5",
+      "description": "Binding for libscrypt password hashing",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "35403614c3359f4f99ee230e3df3a9cd"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0a90a8f56d9bb8deeea8e1d85f6e32489a05d720"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "764d741400a081acf4c4a4b7f2cd90e98b9d3d60ac1723d918dd3e324794614a"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "80b33d29342bf624b50f9781fef794a8821b51bed80230a469e23cdf5394ed458029b16a3300ee487d5f9afacb0b537c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4d3675fab4b9114eb1bc4cfddaf53b40c8b8e3c918bd4513aa5ce49dc4df5f264bd9b89a3ce23d04cabf37a2eda32d4901f9b810d07170a4bf4039d330731f3b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:jonathanstowe/Crypt::LibScrypt@0.0.5:1.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/jonathanstowe/Crypt-LibScrypt",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:jonathanstowe/Crypt::LibScrypt?v=0.0.5",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/jonathanstowe/Crypt-LibScrypt/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/jonathanstowe/Crypt-LibScrypt/archive/refs/tags/0.0.5.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "mailto:jns+gh@gellyfish.co.uk",
+          "type": "support"
+        }
+      ],
+      "tags": [
+        "crypto",
+        "libscrypt",
+        "password",
+        "scrypt"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "Artistic-2.0",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/Artistic-2.0.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/MIME::Base64",
+      "authors": [
+        {
+          "bom-ref": "AdrianWhite",
+          "name": "Adrian White"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:raku-community-modules",
+      "name": "MIME::Base64",
+      "version": "1.2.4",
+      "description": "Encoding and decoding Base64 ASCII strings",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:raku-community-modules/MIME::Base64@1.2.4",
+      "externalReferences": [
+        {
+          "url": "https://raku.land/zef:raku-community-modules/MIME::Base64?v=1.2.4",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/raku-community-modules/MIME-Base64/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "mailto:community@raku.org",
+          "type": "support"
+        }
+      ],
+      "tags": [
+        "MIME",
+        "BASE64",
+        "ENCODING",
+        "DECODING"
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/jonathanstowe/Crypt-LibScrypt",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:jonathanstowe/Crypt::LibScrypt?v=0.0.5",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/jonathanstowe/Crypt-LibScrypt/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/Artistic-2.0.json",
+      "type": "license"
+    },
+    {
+      "url": "https://github.com/jonathanstowe/Crypt-LibScrypt/archive/refs/tags/0.0.5.zip",
+      "type": "source-distribution"
+    },
+    {
+      "url": "mailto:jns+gh@gellyfish.co.uk",
+      "type": "support"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/MIME::Base64"
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

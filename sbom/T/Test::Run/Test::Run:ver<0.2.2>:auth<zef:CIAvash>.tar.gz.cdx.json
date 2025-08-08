@@ -1,0 +1,298 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T22:24:32+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "SiavashAskariNasr",
+        "name": "Siavash Askari Nasr"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:CIAvash/Test::Run@0.2.2",
+      "authors": [
+        {
+          "bom-ref": "SiavashAskariNasr",
+          "name": "Siavash Askari Nasr"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:CIAvash",
+      "name": "Test::Run",
+      "version": "0.2.2",
+      "description": "Test STDOUT, STDERR and exit code of processes. Custom tests and operators can be used for testing output as well.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "0e475664fd9d7476e1af696fda37c21c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3d62cbbd2dd31c175fac7b3374d1d5609527bcef"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "43d0fa84f4d0ca11aa1183b88f8883ca8f2f98fab97a68735f4f5b22bfa268c9"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "94e77b16866af208a0a7effce94e5370cf1f4fd87d702c52eea6c59e3fe95c206d723d467c5e100fcdd89334b6920f8d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d37a5ec745d4abdb3b068388229ee60c50bf9eb5e4f9a8c4f995d1a3b964a30888547b57ac1c00d6520b2e2b267705d385bbbff2cb9603244a57d46857548c9a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-3.0-or-later",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/LGPL-3.0-or-later.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:CIAvash/Test::Run@0.2.2",
+      "externalReferences": [
+        {
+          "url": "https://github.com/CIAvash/Test-Run",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:CIAvash/Test::Run?v=0.2.2",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/CIAvash/Test-Run/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/LGPL-3.0-or-later.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/CIAvash/Test-Run/archive/refs/tags/0.2.2.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "Test",
+        "Run",
+        "Proc",
+        "Proc::Async",
+        "Output",
+        "STDOUT",
+        "STDERR",
+        "STDIN"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "LGPL-3.0-or-later",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/LGPL-3.0-or-later.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/CIAvash/Test-Run",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:CIAvash/Test::Run?v=0.2.2",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/CIAvash/Test-Run/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/LGPL-3.0-or-later.json",
+      "type": "license"
+    },
+    {
+      "url": "https://github.com/CIAvash/Test-Run/archive/refs/tags/0.2.2.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

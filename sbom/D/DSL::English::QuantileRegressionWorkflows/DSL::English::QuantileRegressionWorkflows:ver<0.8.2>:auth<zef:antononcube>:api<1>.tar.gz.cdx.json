@@ -1,0 +1,298 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T19:39:25+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "AntonAntonov",
+        "name": "Anton Antonov"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:antononcube/DSL::English::QuantileRegressionWorkflows@0.8.2:1",
+      "authors": [
+        {
+          "bom-ref": "AntonAntonov",
+          "name": "Anton Antonov"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:antononcube",
+      "name": "DSL::English::QuantileRegressionWorkflows",
+      "version": "0.8.2",
+      "description": "Quantile Regression workflows building by natural language commands.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "2d69f707bebd28cbce0826cf2b06ab55"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ea0782d88597bd5d8f79bff0547b1f9446b55af8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1a922be621439421179de5195d324dbed65b023fddb422b85d0d5a3cc1d26806"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "b3336586caccb421671f5c84285134fadfa2f6afa810ec3dcdc3e377034079d5c7ac9cfcaea558ea864f9d406eb9b113"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1d34f2159c451d27660deb5b4ea369f089ed23793010599ec58f9a2d01e766e5514f77ba49ee982ca007ebe2c9b886f9647c6136b75fe6baa9f496a7d73c7a7d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-3.0-or-later",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/GPL-3.0-or-later.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:antononcube/DSL::English::QuantileRegressionWorkflows@0.8.2:1",
+      "externalReferences": [
+        {
+          "url": "https://github.com/antononcube/Raku-DSL-English-QuantileRegressionWorkflows",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:antononcube/DSL::English::QuantileRegressionWorkflows?v=0.8.2",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/antononcube/Raku-DSL-English-QuantileRegressionWorkflows/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/GPL-3.0-or-later.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/antononcube/Raku-DSL-English-QuantileRegressionWorkflows/archive/refs/tags/0.8.2.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "Quantile regression",
+        "Quantile",
+        "Regression",
+        "Parser",
+        "Interpreter",
+        "Monad",
+        "Workflow",
+        "Pipeline"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "GPL-3.0-or-later",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/GPL-3.0-or-later.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/antononcube/Raku-DSL-English-QuantileRegressionWorkflows",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:antononcube/DSL::English::QuantileRegressionWorkflows?v=0.8.2",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/antononcube/Raku-DSL-English-QuantileRegressionWorkflows/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.json",
+      "type": "license"
+    },
+    {
+      "url": "https://github.com/antononcube/Raku-DSL-English-QuantileRegressionWorkflows/archive/refs/tags/0.8.2.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

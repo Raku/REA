@@ -1,0 +1,284 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T20:03:24+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "SiavashAskariNasr",
+        "name": "Siavash Askari Nasr"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:CIAvash/GtkLayerShell@0.2.1:0.7",
+      "authors": [
+        {
+          "bom-ref": "SiavashAskariNasr",
+          "name": "Siavash Askari Nasr"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:CIAvash",
+      "name": "GtkLayerShell",
+      "version": "0.2.1",
+      "description": "Library and Native bindings for Gtk Layer Shell, a library for creating panels and other desktop components for Wayland, using the Layer Shell protocol.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6eae58b2948281aa8790e1a33e4a50aa"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "45a64c5cf8b5b7f00e5ef9b89f2be7437f6308ec"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9466daa93102c063e68e739bbcd4b84dc2556dbb337fa9b0c022ac1bcf25ba36"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "22f623f8d78df97ae63fbc063100c781fcd02187ee235e84d3880eefb1e7d470177c36d3a99d224561a1496e2180b138"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "04c1982e28b3552aa6f533a827e7cfc9585420495e250b5b52e5ec0556fd23a499a1559f0dd10ab60b6ebc323fe6aa822e774dd1897d11b4a18f5c418984e98b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-3.0-or-later",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/LGPL-3.0-or-later.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:CIAvash/GtkLayerShell@0.2.1:0.7",
+      "externalReferences": [
+        {
+          "url": "https://codeberg.org/CIAvash/GtkLayerShell",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:CIAvash/GtkLayerShell?v=0.2.1",
+          "type": "documentation"
+        },
+        {
+          "url": "https://spdx.org/licenses/LGPL-3.0-or-later.json",
+          "type": "license"
+        }
+      ],
+      "tags": [
+        "GtkLayerShell",
+        "Gtk",
+        "NativeCall",
+        "Native",
+        "Layer Shell",
+        "GTK Layer Shell",
+        "Wayland",
+        "wlr",
+        "GUI",
+        "wlroots"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "LGPL-3.0-or-later",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/LGPL-3.0-or-later.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://codeberg.org/CIAvash/GtkLayerShell",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:CIAvash/GtkLayerShell?v=0.2.1",
+      "type": "documentation"
+    },
+    {
+      "url": "https://spdx.org/licenses/LGPL-3.0-or-later.json",
+      "type": "license"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

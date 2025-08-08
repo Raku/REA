@@ -1,0 +1,274 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T20:43:54+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "PatrickSpekpspektyilnl",
+        "name": "Patrick Spek",
+        "email": "p.spek@tyil.nl"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/cpan:TYIL/Log@0.3.0",
+      "authors": [
+        {
+          "bom-ref": "PatrickSpekpspektyilnl",
+          "name": "Patrick Spek",
+          "email": "p.spek@tyil.nl"
+        }
+      ],
+      "publisher": "cpan",
+      "group": "cpan:TYIL",
+      "name": "Log",
+      "version": "0.3.0",
+      "description": "An interface for logging mechanisms to adhere to",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "54c78b0423222d9eb173e52f807fe2b2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "52a627b037521625d05582456d7c415d41e438e6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "48bfb546e047cbb799d4b429f21c33faec29e1056d45c32ea9f5f92dc90be0aa"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "573168d395ea9ee18ef3a49cd1850987f6f0360643a86e506964f23b84cb3077def4fecbd135786783443a71ce9490e7"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "00a6ee168d4d15d21506f05408b31c61a3f0f5db84ba70fef7dda9d243b62d24b9fc857d7cc1f607af27c6ffadf6572b6ba52cdd401ce41cb46c8e0a780e2e0d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-3.0-only",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/LGPL-3.0-only.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/cpan:TYIL/Log@0.3.0",
+      "externalReferences": [
+        {
+          "url": "https://home.tyil.nl/git/raku/Log/",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/cpan:TYIL/Log?v=0.3.0",
+          "type": "documentation"
+        },
+        {
+          "url": "https://spdx.org/licenses/LGPL-3.0-only.json",
+          "type": "license"
+        }
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "LGPL-3.0-only",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/LGPL-3.0-only.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://home.tyil.nl/git/raku/Log/",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/cpan:TYIL/Log?v=0.3.0",
+      "type": "documentation"
+    },
+    {
+      "url": "https://spdx.org/licenses/LGPL-3.0-only.json",
+      "type": "license"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

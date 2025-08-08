@@ -1,0 +1,288 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T21:11:16+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "BradClawsie",
+        "name": "Brad Clawsie"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:bradclawsie/Net::IP::Parse@0.0.6",
+      "authors": [
+        {
+          "bom-ref": "BradClawsie",
+          "name": "Brad Clawsie"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:bradclawsie",
+      "name": "Net::IP::Parse",
+      "version": "0.0.6",
+      "description": "Types for IP addresses and manipulation methods.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "71c75ee4782419ae4a1ab681da94ef2b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "347839a5aab2ab13b536b68fe6e225999e75a68a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9fb8242e6fed71d7f902994a968821cad32f69e7eacee84522142bafdd8cc9bb"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "216781c8f321abad5d8bd7f0f7283142f37665fab1a5541655a042f29a2cb988718df1e06c0403a7f1353c4fed1274ad"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "84d38bf6347d11955ebb503c64196d0da0e5e83bbedc1344044495d74d6d6c659dc03b2df7330ac01e2b56adfd04db7b883e7ad867b2e65c72f0524b6c983bd9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/BSD-2-Clause.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:bradclawsie/Net::IP::Parse@0.0.6",
+      "externalReferences": [
+        {
+          "url": "https://github.com/bradclawsie/Net-IP-Parse",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:bradclawsie/Net::IP::Parse?v=0.0.6",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/bradclawsie/Net-IP-Parse/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/BSD-2-Clause.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/bradclawsie/Net-IP-Parse/archive/refs/tags/0.0.6.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "BSD-2-Clause",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/BSD-2-Clause.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/bradclawsie/Net-IP-Parse",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:bradclawsie/Net::IP::Parse?v=0.0.6",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/bradclawsie/Net-IP-Parse/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/BSD-2-Clause.json",
+      "type": "license"
+    },
+    {
+      "url": "https://github.com/bradclawsie/Net-IP-Parse/archive/refs/tags/0.0.6.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

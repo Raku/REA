@@ -1,0 +1,264 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T20:23:47+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "AlexanderKiryuhinalexanderkiryuhingmailcom",
+        "name": "Alexander Kiryuhin",
+        "email": "alexander.kiryuhin@gmail.com"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:Altai-man/Java::Generate@1.0.0",
+      "authors": [
+        {
+          "bom-ref": "AlexanderKiryuhinalexanderkiryuhingmailcom",
+          "name": "Alexander Kiryuhin",
+          "email": "alexander.kiryuhin@gmail.com"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:Altai-man",
+      "name": "Java::Generate",
+      "version": "1.0.0",
+      "description": "Generates Java code from AST",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "41f955c294be3d1b7e60b847fa3a327f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6f5ed549a536fa547c894f64fb3bfb5cce18b2ae"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4e5f5fb67b2ab7161e3c86ff1f11e5769b0d4bf882303565dcc7bf56d8285160"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "312c07daf21763b6aa8ad9c72d9f68fad647da717c836d7e57b0ac4148b36d8b641648fba8000f3a63b94d2cee49f0c7"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "16b68dd49b0ad3d17dd3919f2849d58292e3a485e4d53a509f09e516af9e163c0a4fab0042c5da51859c26dad4c9cc4317b80ce370f1942e8521300c6d975361"
+        }
+      ],
+      "purl": "pkg:raku/zef:Altai-man/Java::Generate@1.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Altai-man/perl6-Java-Generate",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:Altai-man/Java::Generate?v=1.0.0",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/Altai-man/perl6-Java-Generate/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/Altai-man/perl6-Java-Generate/archive/refs/tags/1.0.0.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/Altai-man/perl6-Java-Generate",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:Altai-man/Java::Generate?v=1.0.0",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/Altai-man/perl6-Java-Generate/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://github.com/Altai-man/perl6-Java-Generate/archive/refs/tags/1.0.0.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

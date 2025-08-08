@@ -1,0 +1,288 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T19:27:04+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "ItsukiToyota",
+        "name": "Itsuki Toyota"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:titsuki/Algorithm::KdTree@0.0.7",
+      "authors": [
+        {
+          "bom-ref": "ItsukiToyota",
+          "name": "Itsuki Toyota"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:titsuki",
+      "name": "Algorithm::KdTree",
+      "version": "0.0.7",
+      "description": "a perl6 binding for C implementation of the Kd-Tree Algorithm (https://github.com/jtsiomb/kdtree)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1dd961a08d36e31579697690290c012b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "792c9b8e90c5ff67a3ae5f73f8144f0cd7a1b1c6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ed161c9adc614f55235a1a931bc5ce22e5d152993a7f08f4f520ee86fac66f84"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "87aa3aee4cc9f2b267baebc18741f6218a38426f46b8dbbc62069e6b24b543f4f0ccf8c30622a5af4d9f47cf7dfac45a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "fb1e1f8c7c94fe31d2cf1f77dbd7a5964863b9028a57226e7bb7ccf87cb9e83363bee644d40db19a88446b2f92f8a44853fef5540763e10ee35102c88fc0aa10"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/BSD-3-Clause.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:titsuki/Algorithm::KdTree@0.0.7",
+      "externalReferences": [
+        {
+          "url": "https://github.com/titsuki/p6-Algorithm-KdTree",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:titsuki/Algorithm::KdTree?v=0.0.7",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/titsuki/p6-Algorithm-KdTree/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/BSD-3-Clause.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/titsuki/p6-Algorithm-KdTree/archive/refs/tags/0.0.7.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "BSD-3-Clause",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/BSD-3-Clause.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/titsuki/p6-Algorithm-KdTree",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:titsuki/Algorithm::KdTree?v=0.0.7",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/titsuki/p6-Algorithm-KdTree/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/BSD-3-Clause.json",
+      "type": "license"
+    },
+    {
+      "url": "https://github.com/titsuki/p6-Algorithm-KdTree/archive/refs/tags/0.0.7.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

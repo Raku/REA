@@ -1,0 +1,262 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T20:08:39+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "BradClawsie",
+        "name": "Brad Clawsie"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:bradclawsie/Hash::Consistent@0.0.4",
+      "authors": [
+        {
+          "bom-ref": "BradClawsie",
+          "name": "Brad Clawsie"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:bradclawsie",
+      "name": "Hash::Consistent",
+      "version": "0.0.4",
+      "description": "Basic Consistent Hash implementation.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "153a4be1fbe1a946b51ce339d4ec871e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "18362805393309db18ac3660bb835cc563fcc34f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "73661d7d4b50d8e4b28d8c13e17903be7a89e60f4f7151e0d82d03ec9d3db8de"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "64aa0f0148ac2a11f5592002bc3f931e0054a5940c3d3b1a11809cd07c6fc33ed921b1f0c081ddda8e2d745aa7bbebbe"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "fc8a13dc221cbe82b8a7c7bbc3bd1b5fe9c724e232acc995f5ce5f93afe344ff117bd173c87ee9d489861d2c6193bf01f8deefe99f67e4287ce9cdf0954dc953"
+        }
+      ],
+      "purl": "pkg:raku/zef:bradclawsie/Hash::Consistent@0.0.4",
+      "externalReferences": [
+        {
+          "url": "https://github.com/bradclawsie/Hash-Consistent",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:bradclawsie/Hash::Consistent?v=0.0.4",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/bradclawsie/Hash-Consistent/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/bradclawsie/Hash-Consistent/archive/refs/tags/0.0.4.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/bradclawsie/Hash-Consistent",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:bradclawsie/Hash::Consistent?v=0.0.4",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/bradclawsie/Hash-Consistent/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://github.com/bradclawsie/Hash-Consistent/archive/refs/tags/0.0.4.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T19:52:22+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "carbin",
+        "name": "carbin"
+      },
+      {
+        "bom-ref": "jonathanstowe",
+        "name": "jonathanstowe"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:jonathanstowe/FastCGI::NativeCall::PSGI@0.0.6:1,0",
+      "authors": [
+        {
+          "bom-ref": "carbin",
+          "name": "carbin"
+        },
+        {
+          "bom-ref": "jonathanstowe",
+          "name": "jonathanstowe"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:jonathanstowe",
+      "name": "FastCGI::NativeCall::PSGI",
+      "version": "0.0.6",
+      "description": "A PSGI interface for FastCGI::NativeCall",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "dbdbc5d47b6d75a7c3ef93a806160b37"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "31ad3697e88875a7d4978cae790772464dd626c5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3af1fe799b97baca4e8121fad886256bce352f8d04ee788671e50de8e1cae67b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "daa9e67e6fb99df89f7470a93c1f37794ce86090257f7b618df814c1ab1fd0f90e8e82c9fe61b4670ff2aeaacd352715"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d192e83a2fbbce94ce66a829e1097b0fa20269a46a0964772e12f8d2d649d4058d86d413173b8664504b0b7ba2a9a4e7f3db7f2ee4753fd7ead7c111f95fcde6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/ISC.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:jonathanstowe/FastCGI::NativeCall::PSGI@0.0.6:1,0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/jonathanstowe/raku-fcgi-psgi",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:jonathanstowe/FastCGI::NativeCall::PSGI?v=0.0.6",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/jonathanstowe/raku-fcgi-psgi/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/ISC.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/jonathanstowe/raku-fcgi-psgi/archive/refs/tags/0.0.6.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "http",
+        "fastcgi",
+        "fcgi",
+        "psgi"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "ISC",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/ISC.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/jonathanstowe/raku-fcgi-psgi",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:jonathanstowe/FastCGI::NativeCall::PSGI?v=0.0.6",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/jonathanstowe/raku-fcgi-psgi/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/ISC.json",
+      "type": "license"
+    },
+    {
+      "url": "https://github.com/jonathanstowe/raku-fcgi-psgi/archive/refs/tags/0.0.6.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

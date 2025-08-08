@@ -1,0 +1,304 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T21:51:08+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "FrancisGrizzlySmitgrizzlysmitidau",
+        "name": "Francis Grizzly Smit",
+        "email": "grizzly@smit.id.au"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:grizzlysmit/Parse::Paths@0.1.0",
+      "authors": [
+        {
+          "bom-ref": "FrancisGrizzlySmitgrizzlysmitidau",
+          "name": "Francis Grizzly Smit",
+          "email": "grizzly@smit.id.au"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:grizzlysmit",
+      "name": "Parse::Paths",
+      "version": "0.1.0",
+      "description": "A Raku module to provide path parsing and validation for assorted programs.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "094dfcf62b496959c129a7077ce77fbf"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d42d2e605ab5e48103b78be99bcf210c28c4e260"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "aa0aafb8491a16062f8ec9b9c6650daa6fa4872d95cba0869b5d415ec44da790"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "7ef849db08b6fb024ed21e2bc03c99d8057d6dec307d98cbd97fd9c433c634998a8d60d99fdfc9a369676bd915ae0a1f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5291fc5009869210129b213b0f8d40ed514aca28d18a3306586062448f2bad566083f6e87102019d41d3f601f8601f6094d84d4d7929bb2d5f2d30f3edbe2cd2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-3.0-or-later",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/LGPL-3.0-or-later.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:grizzlysmit/Parse::Paths@0.1.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/grizzlysmit/Parse-Paths",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:grizzlysmit/Parse::Paths?v=0.1.0",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/grizzlysmit/Parse-Paths/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/LGPL-3.0-or-later.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/grizzlysmit/Parse-Paths/archive/refs/tags/0.1.0.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "mailto:grizzly@smit.id.au",
+          "type": "support"
+        }
+      ],
+      "tags": [
+        "path",
+        "parsing",
+        "paths",
+        "parse"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "LGPL-3.0-or-later",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/LGPL-3.0-or-later.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/grizzlysmit/Parse-Paths",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:grizzlysmit/Parse::Paths?v=0.1.0",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/grizzlysmit/Parse-Paths/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/LGPL-3.0-or-later.json",
+      "type": "license"
+    },
+    {
+      "url": "https://github.com/grizzlysmit/Parse-Paths/archive/refs/tags/0.1.0.zip",
+      "type": "source-distribution"
+    },
+    {
+      "url": "mailto:grizzly@smit.id.au",
+      "type": "support"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

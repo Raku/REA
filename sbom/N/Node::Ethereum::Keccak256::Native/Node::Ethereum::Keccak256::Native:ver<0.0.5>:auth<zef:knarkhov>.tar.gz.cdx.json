@@ -1,0 +1,488 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T21:13:33+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "KonstantinNarkhov",
+        "name": "Konstantin Narkhov"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:knarkhov/Node::Ethereum::Keccak256::Native@0.0.5",
+      "authors": [
+        {
+          "bom-ref": "KonstantinNarkhov",
+          "name": "Konstantin Narkhov"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:knarkhov",
+      "name": "Node::Ethereum::Keccak256::Native",
+      "version": "0.0.5",
+      "description": "Raku binding to original Keccak256-2011",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "950340c7a28da574b248df3d28c61c6b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f5fc4c809c6b7d0e1ef5f621931329b056f585c8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c61c77dce4fbfe1fc0deebd61284b0ffbc25910b3b0b79591e894069f99bfa7b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "0195772f9399748e923642712f37ac2e2223ff7845a43c24b6df854a642eeac5f7ae3f6cf363999cfb2351fce94020e7"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e797db9da1681bd93e7520c404e234cc321bf9c0887fdcb6d9fae050fe21f92826c2ea76909568ed6a43c4279a89bb6d85e68b446ac05471bdc1679a1fe42a56"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:knarkhov/Node::Ethereum::Keccak256::Native@0.0.5",
+      "externalReferences": [
+        {
+          "url": "https://gitlab.com/pheix/raku-node-ethereum-keccak256-native",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:knarkhov/Node::Ethereum::Keccak256::Native?v=0.0.5",
+          "type": "documentation"
+        },
+        {
+          "url": "https://gitlab.com/pheix/raku-node-ethereum-keccak256-native/-/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        }
+      ],
+      "tags": [
+        "HASH",
+        "KECCAK256"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "Artistic-2.0",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/Artistic-2.0.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/Shell::Command",
+      "authors": [
+        {
+          "bom-ref": "TadeuszSośnierz",
+          "name": "Tadeusz Sośnierz"
+        },
+        {
+          "bom-ref": "DagurValbergJohansson",
+          "name": "Dagur Valberg Johansson"
+        },
+        {
+          "bom-ref": "ElizabethMattijsen",
+          "name": "Elizabeth Mattijsen"
+        },
+        {
+          "bom-ref": "FilipSergot",
+          "name": "Filip Sergot"
+        },
+        {
+          "bom-ref": "GeoffreyBroadwell",
+          "name": "Geoffrey Broadwell"
+        },
+        {
+          "bom-ref": "GlitchMr",
+          "name": "GlitchMr"
+        },
+        {
+          "bom-ref": "Heather",
+          "name": "Heather"
+        },
+        {
+          "bom-ref": "KamilKułaga",
+          "name": "Kamil Kułaga"
+        },
+        {
+          "bom-ref": "MoritzLenz",
+          "name": "Moritz Lenz"
+        },
+        {
+          "bom-ref": "SteveMynott",
+          "name": "Steve Mynott"
+        },
+        {
+          "bom-ref": "TimoPaulssen",
+          "name": "Timo Paulssen"
+        },
+        {
+          "bom-ref": "TobiasLeich",
+          "name": "Tobias Leich"
+        },
+        {
+          "bom-ref": "TimSmith",
+          "name": "Tim Smith"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:raku-community-modules",
+      "name": "Shell::Command",
+      "version": "1.2",
+      "description": "provide cross-platform routines emulating common *NIX shell commands",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/MIT.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:raku-community-modules/Shell::Command@1.2",
+      "externalReferences": [
+        {
+          "url": "git://github.com/raku-community-modules/Shell-Command",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:raku-community-modules/Shell::Command?v=1.2",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/raku-community-moduled/Shell-Command/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/MIT.json",
+          "type": "license"
+        },
+        {
+          "url": "mailto:community@raku.org",
+          "type": "support"
+        }
+      ],
+      "tags": [
+        "SHELL",
+        "UNIX"
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:raku-community-modules/File::Find?vers=vers:raku/%3E=0.2.2",
+      "authors": [
+        {
+          "bom-ref": "TadeuszSośnierz",
+          "name": "Tadeusz Sośnierz"
+        },
+        {
+          "bom-ref": "DagurValbergJohansson",
+          "name": "Dagur Valberg Johansson"
+        },
+        {
+          "bom-ref": "ElizabethMattijsen",
+          "name": "Elizabeth Mattijsen"
+        },
+        {
+          "bom-ref": "FilipSergot",
+          "name": "Filip Sergot"
+        },
+        {
+          "bom-ref": "GlitchMr",
+          "name": "GlitchMr"
+        },
+        {
+          "bom-ref": "Heather",
+          "name": "Heather"
+        },
+        {
+          "bom-ref": "isleofmax",
+          "name": "isleofmax"
+        },
+        {
+          "bom-ref": "MoritzLenz",
+          "name": "Moritz Lenz"
+        },
+        {
+          "bom-ref": "PaulCochrane",
+          "name": "Paul Cochrane"
+        },
+        {
+          "bom-ref": "SteveMynott",
+          "name": "Steve Mynott"
+        },
+        {
+          "bom-ref": "TimoPaulssen",
+          "name": "Timo Paulssen"
+        },
+        {
+          "bom-ref": "TobiasLeich",
+          "name": "Tobias Leich"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:raku-community-modules",
+      "name": "File::Find",
+      "version": "0.2.2",
+      "description": "Get a lazy sequence of a directory tree",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/MIT.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:raku-community-modules/File::Find@0.2.2",
+      "externalReferences": [
+        {
+          "url": "git://github.com/raku-community-modules/File-Find",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:raku-community-modules/File::Find?v=0.2.2",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/raku-community-moduled/File-Find/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/MIT.json",
+          "type": "license"
+        },
+        {
+          "url": "mailto:community@raku.org",
+          "type": "support"
+        }
+      ],
+      "tags": [
+        "FILE",
+        "FIND"
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://gitlab.com/pheix/raku-node-ethereum-keccak256-native",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:knarkhov/Node::Ethereum::Keccak256::Native?v=0.0.5",
+      "type": "documentation"
+    },
+    {
+      "url": "https://gitlab.com/pheix/raku-node-ethereum-keccak256-native/-/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/Artistic-2.0.json",
+      "type": "license"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/Shell::Command",
+      "dependsOn": [
+        "pkg:raku/zef:raku-community-modules/File::Find?vers=vers:raku/%3E=0.2.2"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}

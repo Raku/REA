@@ -1,0 +1,599 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-08T22:19:26+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "ElizabethMattijsen",
+        "name": "Elizabeth Mattijsen"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:lizmat/rak@0.0.58",
+      "authors": [
+        {
+          "bom-ref": "ElizabethMattijsen",
+          "name": "Elizabeth Mattijsen"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:lizmat",
+      "name": "rak",
+      "version": "0.0.58",
+      "description": "Plumbing to be able to look for stuff",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "d10fd71d0b264c50bb2c45f23eab99f3"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f392cb7ae1eaf9c21f304b55ca97b55dcaf5c4a8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a2898fb8e10fc2cd0b35d1c14ea590afe29537f83a3efd18f0a2fb70dce4984a"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "910f72d8a112ed64609d90120f12f7eb21db994670b9a27d8450e35f6f758834e8d9d745e071fcaa8d6f94f5f52d6def"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f52ad115c86d97401d2cbdbe1ed7612df23d8120cb626b216239e30502fde1aa9ba2bb504cd29406b3ec2e0f102a87961a208b091254e046d0f90aeb0a7ab599"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:lizmat/rak@0.0.58",
+      "externalReferences": [
+        {
+          "url": "https://github.com/lizmat/rak",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:lizmat/rak?v=0.0.58",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/lizmat/rak/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/lizmat/rak/archive/refs/tags/0.0.58.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "RAK",
+        "SEARCH",
+        "PLUMBING"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "Artistic-2.0",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/Artistic-2.0.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.10",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.10",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.10.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.06.1-12-g3aea31ed1",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/3aea31ed1.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.06-5-gb1c74b8d8",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/b1c74b8d8.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:lizmat/Git::Files@0.0.6",
+      "authors": [
+        {
+          "bom-ref": "ElizabethMattijsen",
+          "name": "Elizabeth Mattijsen"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:lizmat",
+      "name": "Git::Files",
+      "version": "0.0.9",
+      "description": "List known files of a git repository",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:lizmat/Git::Files@0.0.9",
+      "externalReferences": [
+        {
+          "url": "https://github.com/lizmat/Git-Files",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:lizmat/Git::Files?v=0.0.9",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/lizmat/Git-Files/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/lizmat/Git-Files/archive/refs/tags/0.0.9.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "GIT",
+        "FILES"
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:lizmat/Trap@0.0.1",
+      "authors": [
+        {
+          "bom-ref": "ElizabethMattijsen",
+          "name": "Elizabeth Mattijsen"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:lizmat",
+      "name": "Trap",
+      "version": "0.0.2",
+      "description": "Trap \\$*OUT and/or \\$*ERR output",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:lizmat/Trap@0.0.2",
+      "externalReferences": [
+        {
+          "url": "https://github.com/lizmat/Trap",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:lizmat/Trap?v=0.0.2",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/lizmat/Trap/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/lizmat/Trap/archive/refs/tags/0.0.2.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "TRAP",
+        "STDOUT",
+        "STDERR"
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:lizmat/path-utils?vers=vers:raku/%3E=0.0.21",
+      "authors": [
+        {
+          "bom-ref": "ElizabethMattijsen",
+          "name": "Elizabeth Mattijsen"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:lizmat",
+      "name": "path-utils",
+      "version": "0.0.21",
+      "description": "low-level path introspection utility functions",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:lizmat/path-utils@0.0.21",
+      "externalReferences": [
+        {
+          "url": "https://github.com/lizmat/path-utils",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:lizmat/path-utils?v=0.0.21",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/lizmat/path-utils/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/lizmat/path-utils/archive/refs/tags/0.0.21.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "IO",
+        "STAT",
+        "PATH",
+        "PDF",
+        "MOARVM",
+        "NAUGHTY",
+        "READABLE",
+        "WRITABLE",
+        "EXECUTABLE",
+        "SETUID",
+        "SETGID",
+        "STICKY",
+        "GIT",
+        "GITHUB"
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:lizmat/path-utils@0.0.18",
+      "authors": [
+        {
+          "bom-ref": "ElizabethMattijsen",
+          "name": "Elizabeth Mattijsen"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:lizmat",
+      "name": "path-utils",
+      "version": "0.0.21",
+      "description": "low-level path introspection utility functions",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:lizmat/path-utils@0.0.21",
+      "externalReferences": [
+        {
+          "url": "https://github.com/lizmat/path-utils",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:lizmat/path-utils?v=0.0.21",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/lizmat/path-utils/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/lizmat/path-utils/archive/refs/tags/0.0.21.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "IO",
+        "STAT",
+        "PATH",
+        "PDF",
+        "MOARVM",
+        "NAUGHTY",
+        "READABLE",
+        "WRITABLE",
+        "EXECUTABLE",
+        "SETUID",
+        "SETGID",
+        "STICKY",
+        "GIT",
+        "GITHUB"
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:lizmat/paths@10.0.9",
+      "authors": [
+        {
+          "bom-ref": "ElizabethMattijsen",
+          "name": "Elizabeth Mattijsen"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:lizmat",
+      "name": "paths",
+      "version": "10.1",
+      "description": "A fast recursive file / directory finder",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:lizmat/paths@10.1",
+      "externalReferences": [
+        {
+          "url": "https://github.com/lizmat/paths",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:lizmat/paths?v=10.1",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/lizmat/paths/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/lizmat/paths/archive/refs/tags/10.1.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "PATH",
+        "RECURSE",
+        "FINDER"
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/lizmat/rak",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:lizmat/rak?v=0.0.58",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/lizmat/rak/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/Artistic-2.0.json",
+      "type": "license"
+    },
+    {
+      "url": "https://github.com/lizmat/rak/archive/refs/tags/0.0.58.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/Git::Files@0.0.6",
+      "dependsOn": [
+        "pkg:raku/zef:lizmat/path-utils?vers=vers:raku/%3E=0.0.21"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.10",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/Trap@0.0.1"
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/path-utils@0.0.18"
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/paths@10.0.9"
+    }
+  ]
+}
