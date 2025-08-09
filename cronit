@@ -1,6 +1,25 @@
 constant seconds = 3600;
+
+# Do an update, commit and push changes, wait, then repeat
 loop {
     try run <raku --ll-exception update --commit --push>;
     say "Waiting for next update on {(now + seconds).DateTime.Str.substr(11,5)} UTC";
     sleep seconds;
 }
+
+=begin pod
+
+=head1 AUTHOR
+
+Elizabeth Mattijsen <liz@raku.rocks>
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright 2022 - 2025 Elizabeth Mattijsen
+
+This script is free software; you can redistribute it and/or modify it under
+the Artistic License 2.0.
+
+=end pod
+
+# vim: expandtab shiftwidth=4

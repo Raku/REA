@@ -16,6 +16,7 @@ unit sub MAIN(
 my $then;
 sub msecs() { ((now - $then) * 1000).Int ~ ' msecs' }
 
+# Make sure we're up-to-date
 run <git pull>, :!out;
 
 say "Running updater v{Ecosystem::Archive::Update.^ver}";
@@ -70,7 +71,7 @@ Elizabeth Mattijsen <liz@raku.rocks>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2022 Elizabeth Mattijsen
+Copyright 2022 - 2025 Elizabeth Mattijsen
 
 This script is free software; you can redistribute it and/or modify it under
 the Artistic License 2.0.
