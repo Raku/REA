@@ -42,9 +42,10 @@ if $commit {
     my $status := Git::Status.new;
     my $archive = so $status.untracked.first: *.starts-with: 'archive';
     my $meta    = so $status.untracked.first: *.starts-with: 'meta';
-    if $archive || $meta {
-        run <git add archive meta>;
-        run <git commit META.json archive meta -m>, "Additions at {
+    my $sbom    = so $status.untracked.first: *.starts-with: 'sbom';
+    if $archive || $meta || $sbom {
+        run <git add archive meta sbom>;
+        run <git commit META.json archive meta sbom -m>, "Additions at {
             DateTime.now.utc.Str.substr(0,16)
         }";
 
