@@ -21,7 +21,7 @@ repository, or from any server front-end to this repository.
 ## Note on CPAN ecosystem
 
 Because the CPAN ecosystem only checked on author and module name and
-version, and **not** on the `:auth` of the module, it is happened that
+version, and **not** on the `:auth` of the module, it has happened that
 authors uploaded modules with an `:auth` different from the expected
 `:auth<cpan:AUTHOR>` identity.  This has been corrected in this archive.
 
