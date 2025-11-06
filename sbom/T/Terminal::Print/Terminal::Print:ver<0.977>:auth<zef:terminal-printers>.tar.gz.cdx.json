@@ -1,0 +1,464 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-11-06T21:48:05+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "JohnHaltiwanger",
+        "name": "John Haltiwanger"
+      },
+      {
+        "bom-ref": "japhb",
+        "name": "japhb"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:terminal-printers/Terminal::Print@0.977",
+      "authors": [
+        {
+          "bom-ref": "JohnHaltiwanger",
+          "name": "John Haltiwanger"
+        },
+        {
+          "bom-ref": "japhb",
+          "name": "japhb"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:terminal-printers",
+      "name": "Terminal::Print",
+      "version": "0.977",
+      "description": "Asynchronous printing to your terminal -- as a simple grid",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3779b8433bc0cd8839c8060c0b459b9b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1dd2ef7e80f97046e75fd60ce70bbf75f9ddf35e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5a7173143a1d8c93adfe9e4d9da4752a20916ddfc844c4cc0f19cce6bafc4cda"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "6f2cebb77a8343b1fde2c2cc9fa2d313296ba49650a084bb2435387e6ebbc32e2ee5c0920c8832c690d8e069231a3264"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6ea824934c14ff188bb9584447b697ae794df35c67083f2386e0c6d888b1b79db701f72754961d8a2f403acde66372b3c9b5ef2ee27ee83627b6ec3a88bebc53"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:terminal-printers/Terminal::Print@0.977",
+      "externalReferences": [
+        {
+          "url": "https://github.com/ab5tract/Terminal-Print",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:terminal-printers/Terminal::Print?v=0.977",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/ab5tract/Terminal-Print/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/ab5tract/Terminal-Print/archive/refs/tags/0.977.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "Terminal"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "Artistic-2.0",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/Artistic-2.0.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.12",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.12",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.12",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.12",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.12.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.10-1-gcdde49e2d",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/cdde49e2d.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.10",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/2025.10.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/OO::Monitors",
+      "authors": [
+        {
+          "bom-ref": "JonathanWorthington",
+          "name": "Jonathan Worthington"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:raku-community-modules",
+      "name": "OO::Monitors",
+      "version": "1.1.5",
+      "description": "Objects with mutual exclusion and condition variables",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:raku-community-modules/OO::Monitors@1.1.5",
+      "externalReferences": [
+        {
+          "url": "https://github.com/raku-community-modules/OO-Monitors",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:raku-community-modules/OO::Monitors?v=1.1.5",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/raku-community-modules/OO-Monitors/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/raku-community-modules/OO-Monitors/archive/refs/tags/1.1.5.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "OO",
+        "concurrency",
+        "MOP"
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/Terminal::ANSIColor",
+      "authors": [
+        {
+          "bom-ref": "TadeusztadzikSośnierz",
+          "name": "Tadeusz “tadzik” Sośnierz"
+        },
+        {
+          "bom-ref": "ElizabethMattijsen",
+          "name": "Elizabeth Mattijsen"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:raku-community-modules",
+      "name": "Terminal::ANSIColor",
+      "version": "0.13",
+      "description": "Color screen output using ANSI escape sequences",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/MIT.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:raku-community-modules/Terminal::ANSIColor@0.13",
+      "externalReferences": [
+        {
+          "url": "https://raku.land/zef:raku-community-modules/Terminal::ANSIColor?v=0.13",
+          "type": "documentation"
+        },
+        {
+          "url": "https://spdx.org/licenses/MIT.json",
+          "type": "license"
+        }
+      ],
+      "tags": [
+        "TERMINAL",
+        "TERM",
+        "COLOR",
+        "ANSI",
+        "ESCAPE"
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:patrickb/Terminal::API@1.0.3",
+      "authors": [
+        {
+          "bom-ref": "PatrickBökerpatrickboekerposteode",
+          "name": "Patrick Böker",
+          "email": "patrick.boeker@posteo.de"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:patrickb",
+      "name": "Terminal-API",
+      "version": "1.0.3",
+      "description": "Assorted functions to interact with TTYs",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:patrickb/Terminal-API@1.0.3",
+      "externalReferences": [
+        {
+          "url": "https://git.sr.ht/~patrickb/Terminal-API",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:patrickb/Terminal-API?v=1.0.3",
+          "type": "documentation"
+        },
+        {
+          "url": "https://todo.sr.ht/~patrickb/Terminal-API",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://lists.sr.ht/~patrickb/Terminal-API-devel",
+          "type": "mailing-list"
+        }
+      ],
+      "tags": [
+        "term",
+        "CLI"
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/ab5tract/Terminal-Print",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:terminal-printers/Terminal::Print?v=0.977",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/ab5tract/Terminal-Print/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/Artistic-2.0.json",
+      "type": "license"
+    },
+    {
+      "url": "https://github.com/ab5tract/Terminal-Print/archive/refs/tags/0.977.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/OO::Monitors"
+    },
+    {
+      "ref": "pkg:raku/Terminal::ANSIColor"
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.12",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:patrickb/Terminal::API@1.0.3"
+    }
+  ]
+}
