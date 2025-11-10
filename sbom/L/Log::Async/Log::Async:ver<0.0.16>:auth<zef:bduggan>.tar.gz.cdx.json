@@ -1,0 +1,279 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-11-10T02:49:41+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "BrianDuggan",
+        "name": "Brian Duggan"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:bduggan/Log::Async@0.0.16",
+      "authors": [
+        {
+          "bom-ref": "BrianDuggan",
+          "name": "Brian Duggan"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:bduggan",
+      "name": "Log::Async",
+      "version": "0.0.16",
+      "description": "Asynchronous logging with supplies and taps",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1163b2f3d43790cfb8857e0091824d45"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "fd86ee515b0320fd8c35fb4e5390f5e5313407fd"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e866fb9f9be6eea2b6199f19eee29057f85560eee6505c85afdadd6a6c62628e"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "dba15f0861aeacd0c8e717da1b3f78d746712d3c91a60edbf46219c14d72f5a5f7ed67c8d771129acff5b7999784fcd2"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "90a847dd1b55425a14f688bd9ab8021310cf28ee7fef8a047bb8f1d0778978dd28781087a51c5a1197f580aa258590963d488aa6faa07f939d001e338352fd6f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-1.0-Perl",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-1.0-Perl.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:bduggan/Log::Async@0.0.16",
+      "externalReferences": [
+        {
+          "url": "git://github.com/bduggan/raku-log-async",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:bduggan/Log::Async?v=0.0.16",
+          "type": "documentation"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-1.0-Perl.json",
+          "type": "license"
+        }
+      ],
+      "tags": [
+        "log",
+        "logging",
+        "logger",
+        "async",
+        "asynchronous"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "Artistic-1.0-Perl",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/Artistic-1.0-Perl.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.12",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.12",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.12",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.12",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.12.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2025.10-1-gcdde49e2d",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2025 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/cdde49e2d.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2025.10",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2025 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/2025.10.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "git://github.com/bduggan/raku-log-async",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:bduggan/Log::Async?v=0.0.16",
+      "type": "documentation"
+    },
+    {
+      "url": "https://spdx.org/licenses/Artistic-1.0-Perl.json",
+      "type": "license"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.12",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}
