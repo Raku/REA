@@ -1,0 +1,270 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-07-21T11:33:52+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "TimNelson",
+        "name": "Tim Nelson"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:wayland/Qwiratry::Test@0.0.1",
+      "authors": [
+        {
+          "bom-ref": "TimNelson",
+          "name": "Tim Nelson"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:wayland",
+      "name": "Qwiratry::Test",
+      "version": "0.0.1",
+      "description": "Reusable conformance ('contract') test kit for Qwiratry Format and Location plugins.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "0e0f2bcafc8130125dc3d032a2cc8de9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5d2d79cdfcfa211851015bb1eee178aaecdf71f9"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d53e17b35ee8a6d5ec1322e2349de4501ce897823e409fff31af8c896886e093"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ca2c35a956a52c13b2655db970ec689098ff894f92c1ca1ba30c1d43f1a4d5a39f767be44885f1310d603a21129e09db"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "67ef55da07a45b74a1ff2db4453d908ebbe5b7b7cde94386f836ea47e8994f8a184754dbee6ffe1d8311bd51a78f79b5143eb9f72cde8b690d0a2c2914299969"
+        }
+      ],
+      "purl": "pkg:raku/zef:wayland/Qwiratry::Test@0.0.1",
+      "externalReferences": [
+        {
+          "url": "https://github.com/wayland/raku-Qwiratry-Test",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:wayland/Qwiratry::Test?v=0.0.1",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/wayland/raku-Qwiratry-Test/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/wayland/raku-Qwiratry-Test/archive/refs/tags/0.0.1.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "qwiratry",
+        "test",
+        "conformance",
+        "contract",
+        "format",
+        "location"
+      ]
+    },
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.13",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.13",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.13",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.13",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.13.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2026.06",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2026 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/2026.06.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2026.06",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2026 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/2026.06.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/wayland/raku-Qwiratry-Test",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:wayland/Qwiratry::Test?v=0.0.1",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/wayland/raku-Qwiratry-Test/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://github.com/wayland/raku-Qwiratry-Test/archive/refs/tags/0.0.1.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.13",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}
