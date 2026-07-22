@@ -1,0 +1,324 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-07-22T07:53:14+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "TimNelson",
+        "name": "Tim Nelson"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:wayland/Qwiratry@0.0.8",
+      "authors": [
+        {
+          "bom-ref": "TimNelson",
+          "name": "Tim Nelson"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:wayland",
+      "name": "Qwiratry",
+      "version": "0.0.8",
+      "description": "Declarative query and data-walking architecture for Raku, with transformers, molds, walkers, and I/O pipelines.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6c137905199234d40f1b3008c7230997"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "426229dbb673475c6f46bde3dc687dbeece1a300"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d59529d432443805c1e400a0d2e7e514ad51edfe6403f4d3204aab0324a6af6d"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "56254803cd17aeac8f38b15dc3b09c3aee0c4a1f93b6bd7fad8b65df96eb7af86dfc6c79b1b78d26c88dfe8d21152b8e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e1162d1423019deb09111e0e777bf5bc59ac2ef7062c6ef5daf5925a8a2bd0c69c35834ac37fbb44fa09721eaf9c2e6d72d38fb67b0a937cc03f89e831b56b11"
+        }
+      ],
+      "purl": "pkg:raku/zef:wayland/Qwiratry@0.0.8",
+      "externalReferences": [
+        {
+          "url": "https://github.com/wayland/raku-Qwiratry",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:wayland/Qwiratry?v=0.0.8",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/wayland/raku-Qwiratry/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/wayland/raku-Qwiratry/archive/refs/tags/0.0.8.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "tree",
+        "table",
+        "data-oriented",
+        "walker",
+        "transformer"
+      ]
+    },
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.13",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.13",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.13",
+          "externalReferences": [
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.13",
+              "type": "documentation"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.13.zip",
+              "type": "source-distribution"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2026.06",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2026 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/2026.06.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2026.06",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2026 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/2026.06.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/Slangify",
+      "authors": [
+        {
+          "bom-ref": "ElizabethMattijsen",
+          "name": "Elizabeth Mattijsen"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:lizmat",
+      "name": "Slangify",
+      "version": "0.0.4",
+      "description": "Provide an easy interface to activating slangs",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:lizmat/Slangify@0.0.4",
+      "externalReferences": [
+        {
+          "url": "https://github.com/lizmat/Slangify",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:lizmat/Slangify?v=0.0.4",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/lizmat/Slangify/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Artistic-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/lizmat/Slangify/archive/refs/tags/0.0.4.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "SLANG"
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/wayland/raku-Qwiratry",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:wayland/Qwiratry?v=0.0.8",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/wayland/raku-Qwiratry/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://github.com/wayland/raku-Qwiratry/archive/refs/tags/0.0.8.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/Slangify"
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.13",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}
