@@ -1,0 +1,292 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-01T12:02:52+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "KeyNub",
+        "name": "KeyNub"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:ab-tools/KeyNub::LicDongle@1.1.1:1",
+      "authors": [
+        {
+          "bom-ref": "KeyNub",
+          "name": "KeyNub"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:ab-tools",
+      "name": "KeyNub::LicDongle",
+      "version": "1.1.1",
+      "description": "KeyNub License Dongle: verify that a dongle is genuine, read and write its license records, use its hardware counters and encrypt data only a dongle can decrypt",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "cd77b95734887be067a01cc39c072ff7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "bf1e467d949203b69747e3154e610aa7f8498c46"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "775bbf498b1b3345fff25c8b5590f8794f9ced1ea1237090c30132906e5a9ad4"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "07c1904bb34ae63f6522c378d408c3fa4830bb21aa0f7ed45c2148a79b2cfe311ed33ef04cb425d22a82fdfd213dd9ea"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e5981349cdc1d98c68205fc2af71dcde8ec685c9598ba2cf8917ba038a4ac93ea73331c4d17ec1b371d0be10ca75112d067b3c2780db4eee05c4c2cf7f560c37"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Apache-2.0.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:ab-tools/KeyNub::LicDongle@1.1.1:1",
+      "externalReferences": [
+        {
+          "url": "https://github.com/AB-KeyNub/KeyNub-SDK",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:ab-tools/KeyNub::LicDongle?v=1.1.1",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/AB-KeyNub/KeyNub-SDK/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/Apache-2.0.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/AB-KeyNub/KeyNub-SDK/archive/refs/tags/1.1.1.zip",
+          "type": "source-distribution"
+        }
+      ],
+      "tags": [
+        "licensing",
+        "dongle",
+        "copy-protection",
+        "hardware-key",
+        "nativecall",
+        "usb"
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/Apache-2.0.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.14",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.14",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.14",
+          "externalReferences": [
+            {
+              "url": "https://codeberg.org/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.14",
+              "type": "documentation"
+            },
+            {
+              "url": "https://codeberg.org/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2026.08-476-gccbd569f4f",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2026 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/ccbd569f4f.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2026.08-10-g66bd4afce",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2026 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/66bd4afce.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/AB-KeyNub/KeyNub-SDK",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:ab-tools/KeyNub::LicDongle?v=1.1.1",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/AB-KeyNub/KeyNub-SDK/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/Apache-2.0.json",
+      "type": "license"
+    },
+    {
+      "url": "https://github.com/AB-KeyNub/KeyNub-SDK/archive/refs/tags/1.1.1.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.14",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}
