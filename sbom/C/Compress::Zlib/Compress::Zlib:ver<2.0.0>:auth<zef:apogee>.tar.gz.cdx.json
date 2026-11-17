@@ -1,0 +1,292 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-17T14:07:34+00:00",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "authors": [
+      {
+        "bom-ref": "AndrewEgeler",
+        "name": "Andrew Egeler"
+      },
+      {
+        "bom-ref": "MattDoughty",
+        "name": "Matt Doughty"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "mime-type": "text/plain",
+      "bom-ref": "pkg:raku/zef:apogee/Compress::Zlib@2.0.0",
+      "authors": [
+        {
+          "bom-ref": "AndrewEgeler",
+          "name": "Andrew Egeler"
+        },
+        {
+          "bom-ref": "MattDoughty",
+          "name": "Matt Doughty"
+        }
+      ],
+      "publisher": "zef",
+      "group": "zef:apogee",
+      "name": "Compress::Zlib",
+      "version": "2.0.0",
+      "description": "Nicer zlib interface",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "807c57d681fe1b0943d36211d74d1c11"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "784f538db87eb369b3f58f3b1f2202d22ffa14da"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8f9b778d3a058d492b0d047317cc257f89986f3bc5750272acb19d7dcf943f62"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "746ccfff1141da0e9362887c917fae2ed76449f5552db0d62300fda0cee61443fc3d65890efbb8ba7745c1be7f95f4fa"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "33a709958461516495494f970de5d109c319a69f65938c14bdecd3c242e3b74ec8414473e25936c83aafbfe5141cd43d70de89fea83e334846691d018e5e4501"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/MIT.json"
+          }
+        }
+      ],
+      "purl": "pkg:raku/zef:apogee/Compress::Zlib@2.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/m-doughty/P6-Compress-Zlib",
+          "type": "distribution"
+        },
+        {
+          "url": "https://raku.land/zef:apogee/Compress::Zlib?v=2.0.0",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/m-doughty/P6-Compress-Zlib/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://spdx.org/licenses/MIT.json",
+          "type": "license"
+        },
+        {
+          "url": "https://github.com/m-doughty/P6-Compress-Zlib/archive/refs/tags/2.0.0.zip",
+          "type": "source-distribution"
+        }
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "acknowledgement": "declared",
+          "url": "https://spdx.org/licenses/MIT.json"
+        }
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "mime-type": "text/plain",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.14",
+          "authors": [
+            {
+              "bom-ref": "ElizabethMattijsen",
+              "name": "Elizabeth Mattijsen"
+            }
+          ],
+          "publisher": "zef",
+          "group": "zef:lizmat",
+          "name": "SBOM::Raku",
+          "version": "0.0.14",
+          "description": "Raku specific SBOM functionality",
+          "scope": "required",
+          "licenses": [
+            {
+              "license": {
+                "id": "Artistic-2.0",
+                "acknowledgement": "declared",
+                "url": "https://spdx.org/licenses/Artistic-2.0.json"
+              }
+            }
+          ],
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.14",
+          "externalReferences": [
+            {
+              "url": "https://codeberg.org/lizmat/SBOM-Raku",
+              "type": "distribution"
+            },
+            {
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.14",
+              "type": "documentation"
+            },
+            {
+              "url": "https://codeberg.org/lizmat/SBOM-Raku/issues",
+              "type": "issue-tracker"
+            },
+            {
+              "url": "https://spdx.org/licenses/Artistic-2.0.json",
+              "type": "license"
+            },
+            {
+              "url": "mailto:liz@raku.rocks",
+              "type": "support"
+            }
+          ],
+          "tags": [
+            "SBOM",
+            "RAKU",
+            "META"
+          ]
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "platform",
+      "bom-ref": "Rakudo",
+      "authors": [
+        {
+          "bom-ref": "RakudoCoreDevelopers",
+          "name": "Rakudo Core Developers"
+        }
+      ],
+      "publisher": "Rakudo Core Developers",
+      "group": "Rakudo Core Developers",
+      "name": "Rakudo",
+      "version": "2026.11",
+      "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2006 - 2026 Yet Another Society",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rakudo/rakudo",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/rakudo/rakudo/archive/2026.11.zip",
+          "type": "source-distribution"
+        },
+        {
+          "url": "irc://libera.chat/raku",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "platform",
+      "bom-ref": "moar",
+      "authors": [
+        {
+          "bom-ref": "TheMoarVMTeam",
+          "name": "The MoarVM Team"
+        }
+      ],
+      "publisher": "The MoarVM Team",
+      "group": "The MoarVM Team",
+      "name": "Moar",
+      "version": "2026.11",
+      "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Artistic-2.0",
+            "acknowledgement": "declared",
+            "url": "https://spdx.org/licenses/Artistic-2.0.json"
+          }
+        }
+      ],
+      "copyright": "© 2012 - 2026 Jonathan Worthington",
+      "externalReferences": [
+        {
+          "url": "https://github.com/MoarVM/MoarVM",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "irc://libera.chat/moarvm",
+          "type": "chat"
+        },
+        {
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/2026.11.zip",
+          "type": "source-distribution"
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/m-doughty/P6-Compress-Zlib",
+      "type": "distribution"
+    },
+    {
+      "url": "https://raku.land/zef:apogee/Compress::Zlib?v=2.0.0",
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/m-doughty/P6-Compress-Zlib/issues",
+      "type": "issue-tracker"
+    },
+    {
+      "url": "https://spdx.org/licenses/MIT.json",
+      "type": "license"
+    },
+    {
+      "url": "https://github.com/m-doughty/P6-Compress-Zlib/archive/refs/tags/2.0.0.zip",
+      "type": "source-distribution"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Rakudo",
+      "dependsOn": [
+        "moar"
+      ]
+    },
+    {
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.14",
+      "dependsOn": [
+        "Rakudo"
+      ]
+    }
+  ]
+}
